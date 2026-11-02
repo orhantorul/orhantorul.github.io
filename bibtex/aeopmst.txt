@@ -1,0 +1,10 @@
+@article{Torul2010aeopmst,
+author = {Torul, Orhan and Alper, C Emre},
+title = {{Asymmetric Effects of Oil Prices on the Manufacturing Sector in Turkey}},
+journal = {Review of Middle East Economics and Finance},
+year = {2010},
+volume = {6},
+pages = {90}
+}
+
+

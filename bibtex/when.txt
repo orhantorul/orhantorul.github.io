@@ -1,0 +1,7 @@
+@article{AktugTorul2026When,
+	author = {Emrehan Aktu{\u g} and Orhan Torul},
+	date-modified = {2026-08-20 13:48:18 +0300},
+	journal = {Finance Research Letters},
+	title = {When Prediction Markets Disagree: Cross-Platform Dispersion and Equity Volatility in the 2024 U.S. Election},
+	year = {{Forthcoming}},
+}

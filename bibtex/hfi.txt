@@ -1,0 +1,6 @@
+@unpublished{Torul2018hfi,
+	Author = {Orhan Torul},
+	Note = {Bo{\u g}azi{\c c}i University, Department of Economics Working Papers. Available at https://orhantorul.com/hfi.pdf},
+	Month = {January},
+	Title = {Transatlantic Differences in Taxation, Redistribution and Provision of Public Goods: How Fair is Inequality?},
+	Year = {2018}}

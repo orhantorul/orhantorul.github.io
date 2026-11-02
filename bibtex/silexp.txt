@@ -1,0 +1,9 @@
+@techreport{gurdal_torul_2026,
+  title = {Silicon Experts: How Well Do LLMs Replicate Expert Economic Judgment?},
+  author = {G\"{u}rdal, Mehmet Y. and Torul, Orhan},
+  year = {2026},
+  month = {March},
+  institution = {Department of Economics, Bo\u{g}azi\c{c}i University},
+  type = {Working Paper},
+  url = {https://orhantorul.com/silexp.pdf}
+}

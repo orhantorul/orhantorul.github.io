@@ -1,0 +1,9 @@
+@techreport{oztunali_torul_2026,
+  title = {A Harmonic-Mean Decomposition of Sibling Correlations: Evidence from Turkey},
+  author = {Oztunali, Oguz and Torul, Orhan},
+  year = {2026},
+  month = {April},
+  institution = {Department of Economics, Bo\u{g}azi\c{c}i University},
+  type = {Working Paper},
+  url = {https://orhantorul.com/sib.pdf}
+}

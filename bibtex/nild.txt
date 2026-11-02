@@ -1,0 +1,12 @@
+
+
+@article{selcuk2016note,
+	Author = {Sel{\c{c}}uk, Serdar and Torul, Orhan},
+	Date-Added = {2018-02-21 16:32:37 +0000},
+	Date-Modified = {2018-02-21 16:34:12 +0000},
+	Journal = {Economics Bulletin},
+	Number = {4},
+	Pages = {2063--2079},
+	Title = {A Note on the Intertemporal Labor Dynamics in Turkey},
+	Volume = {36},
+	Year = {2016}}

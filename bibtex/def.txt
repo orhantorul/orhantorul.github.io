@@ -1,0 +1,8 @@
+@unpublished{torul2026missionary,
+  title        = {Missionary Infrastructure and the Intensive Margin of Ottoman State Schooling},
+  author       = {Torul, Orhan},
+  year         = {2026},
+  month        = {April},
+  note         = {Working paper, Boğaziçi University Department of Economics},
+  url          = {https://orhantorul.com/def.pdf}
+}

@@ -1,0 +1,10 @@
+@unpublished{Torul2026Weather,
+  author       = {Orhan Torul},
+  title        = {Discrimination, Not Recalibration: What a Weather Market Adds to the Official Forecast},
+  year         = {2026},
+  month        = aug,
+  note         = {Unpublished manuscript},
+  keywords     = {probability forecasting, forecast evaluation, forecast encompassing, prediction markets, proper scoring rules, calibration and discrimination},
+  abstract     = {A trader pricing a weather contract can consult the official forecast first, so a market-versus-agency horse race need not compare forecasts formed from independent information sets. The better question is what each adds given the other. On 15,782 settled Kalshi daily-maximum contracts at seven stations, market prices have a Brier score of 0.1013 against 0.1308 for the National Weather Service's operational percentile ladder. Conditional on the ladder, the price adds 0.0327 of held-out discrimination; conditional on the price, the ladder adds 0.0000. A permutation placebo leaves 0.00004. The increment is not a repairable calibration deficit: the ladder's own miscalibration is 0.0024 against a gap of 0.0295, so perfect recalibration recovers at most 8\%, and no post-processing specification recovers more than 6.9\% out of sample. Over the whole predictive distribution, discrimination carries 84\% of the continuous-score gap against an arithmetic floor of 34.5\%, under an exact, bin-free decomposition.},
+  url          = {https://orhantorul.com/weather.pdf}
+}

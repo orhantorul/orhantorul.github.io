@@ -1,0 +1,7 @@
+@unpublished{Oztunali2019eiemt,
+	Author = {Oguz Oztunali and Orhan Torul},
+	Date-Modified = {2019-02-10 22:12:17 +0300},
+	Month = {February},
+	Note = {Bo{\u g}azi{\c c}i University, Department of Economics Working Papers. Available at https://orhantorul.com/eiemt.pdf},
+	Title = {Evolution of Intergenerational Educational Mobility in Turkey},
+	Year = {2019}}

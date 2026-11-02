@@ -1,0 +1,10 @@
+@article{alper2009aargpb,
+  title={Asymmetric adjustment of retail gasoline prices in turkey to world crude oil price changes: the role of taxes},
+  author={Alper, C Emre and Torul, Orhan},
+  journal={Economics Bulletin},
+  volume={29},
+  number={2},
+  pages={775--87},
+  year={2009},
+  publisher={AccessEcon}
+}

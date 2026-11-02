@@ -1,0 +1,10 @@
+@article{elgin2022marginal,
+  title={Marginal Cost of Public Funds under the Presence of Informality},
+  author={Elgin, Ceyhun and Torul, Orhan and Turk, Tugce and others},
+  journal={Hacienda P{\'u}blica Espa{\~n}ola/Review of Public Economics},
+  volume={241},
+  number={2},
+  pages={79--103},
+  year={2022},
+  publisher={IEF}
+}

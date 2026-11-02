@@ -1,0 +1,9 @@
+@unpublished{aktugtorul2026,
+	author = {Aktu{\u{g}}, Emrehan and Torul, Orhan},
+	date-modified = {2026-05-30 15:52:47 +0300},
+	month = {May},
+	note = {Working Paper},
+	title = {Election Probabilities and the Treasury Yield Curve},
+	url = {https://orhantorul.com/yield.pdf},
+	year = {2026},
+	bdsk-url-1 = {https://orhantorul.com/when.pdf}}

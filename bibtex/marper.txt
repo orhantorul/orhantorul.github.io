@@ -1,0 +1,10 @@
+@techreport{AktugTorul2026,
+author = {Aktu{\u{g}}, Emrehan and Torul, Orhan},
+institution = {Sabanc{\i} University and Bo{\u{g}}azi{\c{c}}i University},
+month = {October},
+title = {The Market-Perceived Monetary Policy Rule: Evidence from Prediction Markets},
+type = {Working Paper},
+url = {https://orhantorul.com/marper.pdf},
+year = {2026},
+bdsk-url-1 = {https://orhantorul.com/marper.pdf}
+}

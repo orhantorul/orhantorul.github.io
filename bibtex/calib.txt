@@ -1,0 +1,10 @@
+@unpublished{Torul2026Calib,
+  author       = {Orhan Torul},
+  title        = {Calibration as a Channel for Discretization Error},
+  year         = {2026},
+  month        = aug,
+  note         = {Unpublished manuscript},
+  keywords     = {computational methods, calibration, numerical convergence, sensitivity analysis, heterogeneous agents},
+  abstract     = {Discretization error reaches a calibrated model's conclusions by two routes: through the solution of the agent's problem, and through the calibrated parameters themselves, because the target moments are computed on the same grid. Standard diagnostics measure only the first. I derive the decomposition and a screening statistic, A, computable from the calibration Jacobian, two extra solves per calibrated parameter, and one solve at a finer grid. In a heterogeneous-agent model of education finance, A = 14: a grid that hits every target overstates a reform's welfare value by a factor of nine, with 94\% of the gap due to the calibration. Under conventional aggregate targets---in the Aiyagari model, two further economies, and a published replication archive at its own discretization---the statistic validates standard practice. Retargeting the same parameters to distributional moments raises A by orders of magnitude: the channel belongs to the pairing of model, conclusion, and target.},
+  url          = {https://orhantorul.com/calib.pdf}
+}

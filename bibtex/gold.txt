@@ -1,0 +1,9 @@
+@unpublished{Torul2026Gold,
+  author       = {Orhan Torul},
+  title        = {Gold's Missing Anchor: The Real-Rate Decoupling and the Reserve-Safety Premium},
+  year         = {2026},
+  month        = jul,
+  note         = {SSRN Working Paper No. 7075305},
+  doi          = {10.2139/ssrn.7075305},
+  url          = {https://ssrn.com/abstract=7075305},
+}

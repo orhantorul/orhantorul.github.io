@@ -1,0 +1,8 @@
+	author = {Aktu\u{g}, Emrehan and Torul, Orhan},
+	institution = {SabancÄ± University and Bo{\u g}azi{\c c}i University},
+	month = {March},
+	title = {Price Discovery across Political Prediction Markets: Evidence from the 2024 U.S. Presidential Election},
+	type = {Working Paper},
+	url = {https://orhantorul.com/pridis.pdf},
+	year = {2026},
+	bdsk-url-1 = {https://orhantorul.com/pridis.pdf}}

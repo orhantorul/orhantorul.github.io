@@ -1,0 +1,9 @@
+@misc{defpro,
+  title        = {SSRN Working Paper 6838888},
+  author       = {{Unknown Author}},
+  year         = {2026},
+  howpublished = {SSRN},
+  doi          = {10.2139/ssrn.6838888},
+  url          = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6838888},
+  note         = {Accessed via SSRN abstract page}
+}

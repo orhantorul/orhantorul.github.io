@@ -1,0 +1,9 @@
+@article{Kacmaz2025, 
+  title={Unequal outcomes in unequal times: the distributional consequences of Turkey's unorthodox policies}, 
+  volume={73}, 
+  DOI={10.1017/npt.2025.10050}, 
+  journal={New Perspectives on Turkey}, 
+  author={Kaçmaz, Yavuz Selim and Kuzubaş, Tolga Umut and Tarlacı, Islam and Torul, Orhan}, 
+  year={2025}, 
+  pages={32--51}
+}

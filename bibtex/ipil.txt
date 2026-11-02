@@ -1,0 +1,6 @@
+@unpublished{Torul2018ipil,
+	Author = {Orhan Torul},
+	Month = {February},
+	Note = {Bo{\u g}azi{\c c}i University, Department of Economics Working Papers. Available at https://orhantorul.com/ipil.pdf},
+	Title = {Interest in Politics and Intergenerational Linkages},
+	Year = {2018}}

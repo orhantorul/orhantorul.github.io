@@ -1,0 +1,10 @@
+@article{alper2008oil,
+  title={Oil prices, aggregate economic activity and global liquidity conditions: evidence from Turkey},
+  author={Alper, C Emre and Torul, Orhan},
+  journal={Economics Bulletin},
+  volume={17},
+  number={4},
+  pages={1--8},
+  year={2008},
+  publisher={AccessEcon}
+}
