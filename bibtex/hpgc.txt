@@ -2,6 +2,6 @@
 	Author = {G{\"u}rdal,Mehmet Y. and Torul,Orhan and Yah{\c{s}}i,Mustafa},
 	Date-Modified = {2020-07-28 21:46:42 +0300},
 	Month = {June},
-	Note = {Bo{\u g}azi{\c c}i University, Department of Economics Working Papers. Available at https://orhantorul.com/hpgc.pdf},
+	Note = {Bo{\u g}azi{\c c}i University, Department of Economics Working Papers. Available at https://orhantorul.com/sos.pdf},
 	Title = {Heterogeneity in Public Good Contributions: The Pivotal Role of the First Round},
 	Year = {2020}}
