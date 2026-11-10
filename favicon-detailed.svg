@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- "OT" monogram, vector redraw of favicon.png so it stays sharp at any size -->
+  <circle cx="149.5" cy="149.5" r="146.5" fill="#fff"/>
+  <circle cx="149.5" cy="149.5" r="128" fill="#f7f7f7"/>
+  <g fill="none" stroke="#111">
+    <circle cx="149.5" cy="149.5" r="146.5" stroke-width="3"/>
+    <circle cx="149.5" cy="149.5" r="138" stroke-width="7"/>
+    <circle cx="149.5" cy="149.5" r="128.5" stroke-width="2.5"/>
+    <g stroke-width="5.6">
+      <circle cx="111" cy="150" r="54.7"/>
+      <circle cx="111" cy="150" r="43.5"/>
+      <circle cx="111" cy="150" r="32.3"/>
+      <path stroke-linejoin="miter" d="M212.5 125.5V203.5H190.5V116.5H163M201.5 196V116.5H240.5V95H165.5V106H231"/>
+    </g>
+  </g>
+</svg>
