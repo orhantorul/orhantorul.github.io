@@ -1,37 +1,963 @@
-
----
-layout: null
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">{{ site.title }}</title>
+<title type="text">Orhan Torul</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
-<link rel="alternate" type="text/html" href="{{ site.url }}" />
-<updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>{{ site.url }}/</id>
+<link rel="self" type="application/atom+xml" href="https://orhantorul.com/feed.xml" />
+<link rel="alternate" type="text/html" href="https://orhantorul.com" />
+<updated>2026-11-10T21:05:18+03:00</updated>
+<id>https://orhantorul.com/</id>
 <author>
-  <name>{{ site.owner.name }}</name>
-  <uri>{{ site.url }}/</uri>
-  <email>{{ site.owner.email }}</email>
+  <name>Orhan Torul</name>
+  <uri>https://orhantorul.com/</uri>
+  <email>orhan.torul@bogazici.edu.tr</email>
 </author>
-{% for post in site.posts limit:20 %}
+
 
 <entry>
-  <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
-  <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
-  <id>{{ site.url }}{{ post.id }}</id>
-  {% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
-  <published>{{ post.date | date_to_xmlschema }}</published>
-  {% else %}<published>{{ post.date | date_to_xmlschema }}</published>
-  <updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
+  <title type="html"><![CDATA[A Safe Haven for How Long?]]></title>
+  <link rel="alternate" type="text/html" href="https://orhantorul.com/dollar-safe-haven-reversal/" />
+  <id>https://orhantorul.com/dollar-safe-haven-reversal</id>
+  <published>2026-10-09T00:00:00+03:00</published>
+  <updated>2026-10-09T00:00:00+03:00</updated>
   <author>
-    <name>{{ site.owner.name }}</name>
-    <uri>{{ site.url }}</uri>
-    <email>{{ site.owner.email }}</email>
+    <name>Orhan Torul</name>
+    <uri>https://orhantorul.com</uri>
+    <email>orhan.torul@bogazici.edu.tr</email>
   </author>
-  <content type="html">{{ post.content | xml_escape }}
-  &lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by {{ site.owner.name }} at &lt;a href=&quot;{{ site.url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
+  <content type="html">&lt;hr /&gt;
+
+&lt;p&gt;In April 2025, as the trade conflict escalated and American stocks sold off, the dollar behaved differently depending on when you looked. During the trading session, it still tended to rise against the euro in the same minutes that stocks fell. Over the following days, it weakened. Someone watching a five-minute chart and someone checking their portfolio a week later could reasonably have reached opposite conclusions about whether the dollar was providing shelter. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In my &lt;a href=&quot;https://doi.org/10.1016/j.intfin.2026.102413&quot;&gt;forthcoming paper&lt;/a&gt;, I separate those two responses. I call the first the dollar’s safe haven reflex and the second its persistence. The distinction turns out to be the main result: in 2025, the reflex survived, but the protection did not last. The evidence points to a turbulent year in which the dollar’s behavior changed, rather than a permanent end to its international role.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-it-means-to-be-a-safe-haven&quot;&gt;What It Means to Be a Safe Haven&lt;/h3&gt;
+
+&lt;p&gt;A safe haven is an asset that rises when risk spikes. That is a more demanding property than simply remaining stable. A government bond can preserve most of its value during a stock market crash without gaining enough to offset losses elsewhere in a portfolio. It can remain a safe asset while failing to provide the particular protection investors expected. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The same distinction applies to currencies, with an additional complication: a currency’s value is always measured against another currency. In the main results below, the dollar means the dollar against the euro. I also compare it with five other currencies, because weakness against the euro alone would not establish a broader change in the dollar’s behavior. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is also the question of time. The currency investors reach for immediately may differ from the one they choose to hold once they have had several days to reconsider. A single daily price change can hide that distinction.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-data-and-the-two-clocks&quot;&gt;The Data and the Two Clocks&lt;/h3&gt;
+
+&lt;p&gt;I use futures prices from June 2010 through June 2026, covering stocks, currencies, government bonds and gold. The sample contains 465 days on which S&amp;amp;P 500 futures fell by more than 1%. These are the paper’s stress days, defined by an observable fall in stock prices rather than by a judgment about which news stories mattered. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For each stress day, I ask two questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What happens within the session?&lt;/strong&gt; I compare five-minute changes in stocks and the dollar during U.S. trading hours. Does the dollar rise in the same minutes that stocks fall?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What remains several days later?&lt;/strong&gt; I measure the dollar’s cumulative change from the close before the selloff to five trading days after it. Does a deeper stock market decline go together with a larger dollar gain, or a larger loss?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The second measure includes the selloff day itself. It is not the return to a trade placed after the decline has already happened. That matters when interpreting the numbers.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-the-immediate-reflex-survived&quot;&gt;1. The Immediate Reflex Survived&lt;/h3&gt;
+
+&lt;p&gt;In the recent years of the sample, the dollar still tended to rise against the euro in the same five-minute intervals in which stocks fell. The relationship survives adjustments for movements in Treasury prices and for the exact opening and closing times of the New York stock market. It is also stronger when I restrict the analysis to days with better intraday currency coverage. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This reflex is not an unchanging feature of the dollar. It disappeared for a stretch in the mid-2010s. But it was present again from 2021 through the first half of 2026, including the period in which the longer response went the other way. Whatever changed in 2025, it did not eliminate the dollar’s immediate bid against the euro when stocks fell.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-over-the-following-days-the-relationship-reversed&quot;&gt;2. Over the Following Days, the Relationship Reversed&lt;/h3&gt;
+
+&lt;p&gt;Before 2024, the relationship between the depth of a stock market selloff and the dollar’s subsequent cumulative return was weakly protective. In the 2024–2026 window, it turned the other way. Each additional percentage point of stock market decline was associated with roughly three-quarters of a percentage point more dollar depreciation by five trading days after the selloff. The reversal is concentrated in 2025. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Average returns give a simpler sense of scale. Across the earlier stress days, the dollar gained about 0.28% over the measurement window. In 2024–2026, it lost about 0.31%. These are meaningful differences for an asset expected to cushion losses, but they are not the movements of a currency in collapse. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The pattern survives changing the threshold for a bad stock market day, using a basket of currencies, and checking Federal Reserve spot exchange rates instead of futures. Removing April 2025 roughly halves the estimated relationship but does not eliminate it. Defining stress through jumps in the VIX, the options market’s gauge of expected stock market turbulence, produces a smaller reversal. The size therefore depends on which kind of stress we measure.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-caveat-about-how-much-evidence-there-is&quot;&gt;A Caveat About How Much Evidence There Is&lt;/h3&gt;
+
+&lt;p&gt;The recent comparison contains 66 stress days with complete return windows. Those are not 66 independent experiments. Several belong to the same run of bad news, and their following days overlap. Grouping them into separate stress episodes leaves 35, with the spring 2025 tariff turmoil carrying much of the result. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;When I assess uncertainty by treating whole episodes as the independent pieces of evidence, the estimated recent reversal is no longer precise enough to rule out zero. The change from the earlier period does remain statistically clear. Those statements answer different questions: the evidence is stronger that the dollar’s response changed than that we know exactly how far its recent response lay on the wrong side of zero. The distinction is worth keeping even in a short account of the paper.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-the-dollar-lost-most-ground-to-other-havens&quot;&gt;3. The Dollar Lost Most Ground to Other Havens&lt;/h3&gt;
+
+&lt;p&gt;The estimated losses are largest against the Swiss franc, followed by the euro and the yen, and smallest against the Australian dollar. That ordering matters. The first three are competing reserve or haven currencies; the Australian dollar is more closely tied to commodities and the economic cycle. The pattern looks more like a change in where investors sought protection than a situation in which everything simply fell together. The individual estimates are uncertain, however, so I treat the ordering as suggestive. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;German government bonds also show an estimated rally over the same horizon, although that result narrowly misses the more conservative test based on whole episodes. Two other findings limit the story:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The Treasury evidence is inconclusive.&lt;/strong&gt; The estimates are too imprecise to establish whether long-term U.S. government bonds retained their protection over several days. Their behavior during one memorable April selloff cannot settle the question for the full sample.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Gold depends on the currency used to measure it.&lt;/strong&gt; Gold rose in dollar terms, but its response was small and statistically unclear when measured in euros. Much of the apparent gold rally was the other side of a weaker dollar.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are comparisons of returns. They do not track money moving from one investor’s dollar holdings into that same investor’s German bonds.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-the-options-market-priced-the-same-concern&quot;&gt;4. The Options Market Priced the Same Concern&lt;/h3&gt;
+
+&lt;p&gt;Options provide a separate check because they price protection against future moves. I compare the relative price of protection against dollar weakness and dollar strength, using options on euro futures. In 2024, the pricing tilted toward dollar strength. In 2025, it tilted toward dollar weakness, with the turn appearing in the second quarter, during the tariff turmoil. By spring 2026, the tilt had reversed again. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Options against the Swiss franc show a similar increase in the relative price of protection against dollar weakness in 2025. Options against the yen do not. The evidence therefore has limits, but two separate currency options markets reinforce the return evidence: dollar downside became more expensive to insure against during the year in which its protection failed to persist.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-the-two-responses-might-diverge&quot;&gt;Why the Two Responses Might Diverge&lt;/h3&gt;
+
+&lt;p&gt;One interpretation is that immediate liquidity needs and slower portfolio decisions pull in different directions. Investors facing sudden stress need somewhere to put cash, and dollar markets remain deep and easy to trade. Once the immediate pressure passes, they can reconsider where they want to hold it. If the source of their concern is U.S. policy itself, a competing haven may look more attractive. A simple model in the paper shows how those two decisions can produce the pattern in the data. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The reversal is concentrated on days without a scheduled Federal Reserve decision, payrolls report or inflation release. On the small set of scheduled release days, the estimate is close to zero. That fits the interpretation, but does not establish it: unscheduled news also includes foreign crises and other financial events, and the difference between the two groups is too imprecisely estimated to be conclusive. The paper measures how prices moved together, not a causal effect of lost confidence in U.S. policy.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-2025-does-and-does-not-tell-us&quot;&gt;What 2025 Does and Does Not Tell Us&lt;/h3&gt;
+
+&lt;p&gt;The reversal fades in the first half of 2026. The dollar’s estimated response moves back toward protection, although there are too few stress days to establish a durable recovery. The options evidence also turns back. Calling the 2025 pattern permanent de-dollarization would therefore go beyond what the data show. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The lesson is narrower and useful: whether a currency provides shelter depends on how long that shelter is needed. In 2025, the dollar could still attract an immediate bid against the euro while failing to protect over the days that followed. Assessing its haven role requires checking both horizons. The first few minutes did not tell the whole story.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.intfin.2026.102413&quot;&gt;Torul, O. (2027)&lt;/a&gt;. Reflex without Persistence: The Dollar’s Multi-Day Safe Haven Reversal in 2025. &lt;em&gt;Journal of International Financial Markets, Institutions &amp;amp; Money&lt;/em&gt;. 114, 102413.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.7910/DVN/6GRG61&quot;&gt;Replication code and derived data&lt;/a&gt; are deposited at Harvard Dataverse.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://orhantorul.com/dollar-safe-haven-reversal/&quot;&gt;A Safe Haven for How Long?&lt;/a&gt; was originally published by Orhan Torul at &lt;a href=&quot;https://orhantorul.com&quot;&gt;Orhan Torul&lt;/a&gt; on October 09, 2026.&lt;/p&gt;</content>
 </entry>
-{% endfor %}
+
+
+<entry>
+  <title type="html"><![CDATA[When the Odds Do Not Agree]]></title>
+  <link rel="alternate" type="text/html" href="https://orhantorul.com/prediction-market-disagreement/" />
+  <id>https://orhantorul.com/prediction-market-disagreement</id>
+  <published>2026-09-15T00:00:00+03:00</published>
+  <updated>2026-09-15T00:00:00+03:00</updated>
+  <author>
+    <name>Orhan Torul</name>
+    <uri>https://orhantorul.com</uri>
+    <email>orhan.torul@bogazici.edu.tr</email>
+  </author>
+  <content type="html">&lt;hr /&gt;
+&lt;p&gt;Through most of 2024, you could bet on the American presidential election in at least seven different places. Polymarket, Betfair, Bovada, BetOnline, William Hill, Unibet and Everygame all posted a running probability that Donald Trump would win, updated continuously as news arrived. They did not agree with one another. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Usually the disagreement was small. On an average day the seven estimates sat within about 2.6 percentage points of their own average. Around the big shocks of the campaign the spread more than doubled, passing 6 percentage points after the July assassination attempt and again after President Biden withdrew from the race. In a &lt;a href=&quot;https://doi.org/10.1016/j.frl.2026.110664&quot;&gt;recent paper&lt;/a&gt;, my co-author Emrehan Aktuğ and I ask whether that spread, the bare fact of the platforms disagreeing, tells us anything about the stock market.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-the-disagreement-rather-than-the-odds-themselves&quot;&gt;Why the Disagreement Rather Than the Odds Themselves&lt;/h3&gt;
+
+&lt;p&gt;Most work on elections and markets asks a directional question: what are the odds, and which way are they moving? A single platform’s price answers that. If Polymarket says 60%, that is its traders’ collective best guess. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Disagreement asks something different. It is not about where the odds point, but about how firmly anyone holds them. The platforms differ in who trades on them, in which countries those traders sit and in how quickly each updates, so their numbers were never going to coincide exactly. When all seven look at the same campaign and arrive at visibly different answers, though, the natural reading is that the evidence itself has become hard to interpret. Investors then face a wider range of possible policy outcomes, and a wider range of outcomes leaves more room for prices to swing. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are other ways to measure election uncertainty, and each has a drawback that disagreement across platforms avoids:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Disagreement among pollsters&lt;/strong&gt; comes from surveys, which appear every few days at best. It can tell you nothing about a particular Tuesday afternoon.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Options prices&lt;/strong&gt; yield a well-known gauge of expected stock market turbulence, updated constantly, but that gauge blends election worries together with everything else investors are worried about. The electoral part cannot be separated out.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Disagreement across betting platforms&lt;/strong&gt; is specific to the election, comes from real money changing hands rather than from stated intentions, and can be read every five minutes.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;data-and-design&quot;&gt;Data and Design&lt;/h3&gt;
+
+&lt;p&gt;We pair five-minute prices from the seven betting platforms with five-minute stock prices for 71 American companies, running from January 22 to November 5, 2024. The start date is the first trading day after Ron DeSantis dropped out of the Republican primary, so that the betting odds reflect the general election rather than the nomination contest. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We sort the companies by which party they give money to, using campaign contribution records compiled by OpenSecrets over the 2020 to 2024 cycles. Thirty-six lean Republican and thirty-five lean Democratic. We then build two equally weighted portfolios and study the difference between them. The reason for working with the difference is that most of what moves a large company’s share price has nothing to do with politics, whether interest rates, oil prices or consumer demand. Those forces push both portfolios in the same direction and largely cancel when one is subtracted from the other. What should survive the subtraction is sensitivity to who wins. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;That sets up the test. If disagreement among the betting platforms genuinely captures election-specific uncertainty, it should predict turbulence in this politically sensitive portfolio more strongly than it predicts turbulence in the stock market as a whole. The comparison is what interests us, rather than the raw finding, because a comparison of this kind is much harder to produce by accident.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-disagreement-predicts-turbulence-in-politically-exposed-stocks&quot;&gt;1. Disagreement Predicts Turbulence in Politically Exposed Stocks&lt;/h3&gt;
+
+&lt;p&gt;When the betting platforms disagree more in one hour, the political portfolio swings more in the next. A typical widening in disagreement, slightly under one percentage point, is followed by a 4% to 11% increase in the portfolio’s volatility. By volatility we mean simply the size of its price swings, in either direction, over the following hour. The relationship holds after accounting for how turbulent the broad market was and for what options prices implied about expected turbulence. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that the prediction concerns the size of the swings and not their direction. That distinction turns out to matter a great deal, and we return to it below.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-the-effect-is-concentrated-where-politics-matters&quot;&gt;2. The Effect Is Concentrated Where Politics Matters&lt;/h3&gt;
+
+&lt;p&gt;Disagreement predicts swings in the overall market far more weakly than it predicts swings in the political portfolio, and the gap between the two is large enough that it is unlikely to be chance. One subtlety had to be addressed before we could believe it, however. Our broad market measure is the average of the same 71 politically connected firms, which makes it an imperfect comparison. So we built a cleaner one: sixteen large utility and consumer staples companies, firms that sell electricity and groceries, which take no political side and appear nowhere among the original 71. Disagreement predicts swings in that basket about half as strongly as in the political portfolio, and the difference again holds up. Election disagreement is not entirely unrelated to ordinary market turbulence, but its predictive power is clearly concentrated where political exposure is greatest.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-it-predicts-how-much-prices-move-not-which-way&quot;&gt;3. It Predicts How Much Prices Move, Not Which Way&lt;/h3&gt;
+
+&lt;p&gt;This is the sharpest test available to us, and the one that separates an uncertainty story from a simple directional one. If disagreement merely signaled that Trump was gaining ground, it ought to predict which way the political portfolio moves. It barely does so. What it predicts strongly is the size of the move regardless of direction, with roughly ten times more explanatory power for size than for direction. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A small directional effect does survive, and we report it rather than rounding it away. In 2024 the platforms happened to drift apart at moments when the news favored Trump, and a thin risk premium that our measure of the consensus odds does not capture may also be at work. The channel is mostly, though not purely, about uncertainty.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-how-long-it-lasts-and-which-platforms-drive-it&quot;&gt;4. How Long It Lasts, and Which Platforms Drive It&lt;/h3&gt;
+
+&lt;p&gt;Two further results are worth reporting:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The effect lasts about a trading day&lt;/strong&gt;: this fits the behavior of disagreement itself. Once the platforms drift apart they converge slowly, taking roughly 33 hours to close half the gap, so the underlying confusion stays elevated for hours rather than minutes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The slower platforms matter more than the fast ones&lt;/strong&gt;: a standard statistical method can rank the seven by how much each contributes to discovering the correct price. Polymarket and Betfair lead. The traditional bookmakers lag, and update their numbers far less often. It is disagreement among the laggards, not among the leaders, that tracks stock market turbulence most closely. One explanation is that the slow, retail-facing venues reflect the confusion of the general public and drift apart exactly when news is genuinely hard to read, while the leaders converge quickly and add little. We treat this as suggestive rather than settled, since these platforms also differ in liquidity and in who trades on them.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;a-caveat-about-the-numbers&quot;&gt;A Caveat About the Numbers&lt;/h3&gt;
+
+&lt;p&gt;We gave the headline effect above as a range, 4% to 11%, rather than as a single number. The reason deserves a paragraph, because it is the sort of thing academic papers tend to bury. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our main results use intraday stock prices from one data vendor, Twelve Data, and imply an 11% effect. Running exactly the same analysis on prices for the same companies from a second and more expensive vendor, DataBento, implies 4%. The direction and the statistical significance are identical; the magnitude is not. The explanation is mundane. The two vendors fill in their five-minute price grids at very different rates, roughly 95% of the time for DataBento against roughly 70% for Twelve Data, and they timestamp their data slightly differently. Since our hourly volatility measure is built from twelve five-minute price changes, it matters a great deal how many of those twelve are genuine observations rather than gaps filled in from the previous price. We report both figures rather than choosing the more flattering one.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-the-evidence-cannot-establish&quot;&gt;What the Evidence Cannot Establish&lt;/h3&gt;
+
+&lt;p&gt;Three limitations bound what we can claim:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;This is prediction, not proof of cause&lt;/strong&gt;: everything we can check points the same way. Disagreement comes first and turbulence follows rather than the reverse, the previous hour’s disagreement works as well as the current hour’s, and setting aside the big campaign event days changes nothing. Even so, we cannot rule out that some third factor moves both at once. The clean way to settle it would be an accident of nature, such as a platform going offline for technical reasons, which would scramble the disagreement measure for reasons unconnected to the election. No such outage occurred during our sample, and we flag the idea for whoever gets the data next time.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The event evidence is uneven&lt;/strong&gt;: disagreement and market turbulence both jumped after the July 13 assassination attempt, and both fell after President Biden withdrew and removed a major unknown. Around the two televised debates the relationship is much weaker. The pattern hints that what matters is surprise, meaning unscheduled events that abruptly widen the range of possibilities rather than scheduled ones everyone has had weeks to anticipate.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;It is one election&lt;/strong&gt;: earlier American elections cannot be checked, because the data do not exist. Polymarket had not been founded and Betfair was effectively the only liquid market in 2016. We therefore present this as something true of 2024, not as a law of political markets.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-it-is-good-for&quot;&gt;What It Is Good For&lt;/h3&gt;
+
+&lt;p&gt;For anyone holding shares in politically exposed companies, the practical use is ordinary risk management. Betting odds are public and free, they update in real time, and the disagreement among them forecasts turbulence in exactly the stocks whose value depends on the election. An investor trying to hold risk steady would trim a politically tilted position by roughly 4% to 10% when disagreement widens by a typical amount. As a forecasting matter, adding disagreement to the standard predictors raises the share of hourly turbulence we can explain from 42% to 45%. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The wider point concerns what we choose to read off these markets. The headline probability attracts nearly all the attention, and it answers the question everyone asks, which is who is going to win. The disagreement around it answers a quieter question about how much anyone really knows, and our results suggest that this quieter number carries real-time information about election uncertainty that the headline figure does not. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Whether the same holds for other high-stakes political events with several active betting markets remains open. Given how quickly these platforms have grown since 2024, it should not stay open for long.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.frl.2026.110664&quot;&gt;Aktuğ, E., &amp;amp; Torul, O. (2026)&lt;/a&gt;. When Prediction Markets Disagree: Cross-Platform Dispersion and Equity Volatility in the 2024 U.S. Election. &lt;em&gt;Finance Research Letters&lt;/em&gt;, 111, 110664.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.7910/DVN/O2W2JR&quot;&gt;Replication code and redistributable data&lt;/a&gt; are deposited at Harvard Dataverse.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://orhantorul.com/prediction-market-disagreement/&quot;&gt;When the Odds Do Not Agree&lt;/a&gt; was originally published by Orhan Torul at &lt;a href=&quot;https://orhantorul.com&quot;&gt;Orhan Torul&lt;/a&gt; on September 15, 2026.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Thirty-Five Minutes of Silence]]></title>
+  <link rel="alternate" type="text/html" href="https://orhantorul.com/cpi-leak/" />
+  <id>https://orhantorul.com/cpi-leak</id>
+  <published>2026-09-11T00:00:00+03:00</published>
+  <updated>2026-09-11T00:00:00+03:00</updated>
+  <author>
+    <name>Orhan Torul</name>
+    <uri>https://orhantorul.com</uri>
+    <email>orhan.torul@bogazici.edu.tr</email>
+  </author>
+  <content type="html">&lt;hr /&gt;
+
+&lt;p&gt;On May 15, 2024, the U.S. Bureau of Labor Statistics loaded a subset of the April Consumer Price Index files onto its public website roughly thirty minutes before the scheduled 8:30 release. For half an hour, inflation figures that routinely move bond, currency and stock markets around the world sat on a government server, reachable by anyone who thought to look for them, with no announcement that they were there. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Incidents of this kind are unfortunate for the statistical agency and useful for researchers. Economists who study how quickly markets absorb news usually face an awkward obstacle: we rarely know the exact moment at which the news became available, so we have to infer it. Here we do know it, because the agency afterwards confirmed the time. In a &lt;a href=&quot;https://doi.org/10.1016/j.frl.2026.110378&quot;&gt;recent paper&lt;/a&gt;, my co-author Emrehan Aktuğ and I use that timestamp to ask a simple question. When important economic news quietly becomes available, how long does it take a betting market to notice? &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The question is not merely academic. Prediction markets, where people buy and sell contracts that pay out if an event happens, are increasingly quoted as real-time forecasts on financial news and in policy discussion. Their usefulness in that role depends on how quickly they absorb information. In the professional bond and currency markets, a scheduled economic announcement is reflected in prices within seconds. For the retail betting platforms that anyone can join, there has been very little comparable evidence, particularly minute by minute.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-setting-and-the-data&quot;&gt;The Setting and the Data&lt;/h3&gt;
+
+&lt;p&gt;The leaked report showed inflation running slightly cooler than expected, 0.3% for the month against a forecast of 0.4%. The gap is small, but its meaning was clear to anyone who follows monetary policy, since softer inflation makes interest rate cuts by the Federal Reserve more likely. That gives us a clean test. If several different markets price the odds of rate cuts, we can watch the clock and see which of them reacts first. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We follow three sets of prices, minute by minute:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Polymarket’s “How many Fed rate cuts in 2024?” contracts&lt;/strong&gt;: our main subject. Polymarket is a betting platform where anyone can trade contracts on future events. This particular market offered a separate contract for each possible answer, from zero cuts up to six or more. Each contract pays one dollar if that answer turns out to be right, and nothing if it does not. The price therefore reads directly as a probability, so a contract trading at 30 cents means the market puts the chance at roughly 30%. We combine the contracts into a single figure, the expected number of cuts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;CME Federal Funds futures&lt;/strong&gt;: our professional benchmark. This is the contract banks and funds have used for decades to bet on, and hedge against, Federal Reserve decisions. It prices the same underlying question as the Polymarket contracts, but it trades on an established exchange among institutional participants.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bitcoin and Ethereum&lt;/strong&gt;: background only. Both are sensitive to interest rate news, but only indirectly, so we do not treat them as a benchmark. They are here to show what a market watched around the clock by automated trading systems was doing at the same moment.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;1-the-professional-market-reacted-within-seconds&quot;&gt;1. The Professional Market Reacted Within Seconds&lt;/h3&gt;
+
+&lt;p&gt;The futures market moved almost at once. By the time the official 8:30 release arrived, Fed Funds futures had already made close to 60% of the entire price move they would make between 8:00 and 9:00. Someone, or more likely some piece of software, found the files on the server, read them, and traded on them before the government had announced anything. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The crypto prices are consistent with this. Bitcoin rose 0.31% and Ethereum 0.12% during the half hour in question. Only the Bitcoin move is larger than these assets typically drift before a CPI release, and with just four comparison mornings we cannot make much of it statistically. We report it as a reminder that continuously monitored markets were awake, not as evidence that they were pricing the leak.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-polymarket-did-not-move-for-thirty-five-minutes&quot;&gt;2. Polymarket Did Not Move for Thirty-Five Minutes&lt;/h3&gt;
+
+&lt;p&gt;Over the same half hour, Polymarket’s prices did essentially nothing. The first real price change comes at 8:35. We do not choose that moment by hand; a statistical procedure designed to find the point at which a series changes behavior locates it on its own. That is thirty-five minutes after the files went up, and five minutes after the official release, by which time the news was on every financial screen in the world. Once the adjustment began it did come through, and by 9:00 the contracts had moved roughly six times as far as they had during the entire half hour of the leak. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The order book makes the point more vividly than any statistic. On Polymarket, as on any exchange, there is a best price at which someone is currently willing to buy and a best price at which someone is willing to sell. Between 8:00 and 8:29, across every contract in the series, those two prices changed a total of three times. On four ordinary CPI mornings we use for comparison, the same half hour saw 11, 16, 20 and 50 changes. That is not a market adjusting slowly; it is a market whose quotes were largely being left untouched.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-the-thirty-five-minutes-are-really-two-different-stories&quot;&gt;3. The Thirty-Five Minutes Are Really Two Different Stories&lt;/h3&gt;
+
+&lt;p&gt;The obvious conclusion is that the betting market simply failed. We think that is too quick, and separating the thirty-five minutes into two parts is the most important thing the paper does. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Consider first the thirty minutes from 8:00 to 8:30, when the information was available but unannounced. Here the silence is close to what economic theory would predict, for a reason that comes down to the cost of trading. Buying a contract on Polymarket meant paying slightly more than the quoted middle price, and selling meant accepting slightly less. That difference, the bid-ask spread, was one to two cents on these contracts. Since each contract pays a dollar or nothing, one cent of price is one percentage point of probability. A trader therefore had to believe the true odds had shifted by at least half a percentage point, and more likely a full point, before trading was worth doing at all. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;How far had the odds actually shifted? By about half a percentage point at most, because the inflation surprise itself was so small. So the expected gain was, at best, exactly what the trade would cost, and more probably less. A trader who had found the leaked file and done this arithmetic would rationally have done nothing, and we make no claim of failure for this window. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The last five minutes, from 8:30 to 8:35, are a different situation entirely. By 8:30 the report was public, the professional futures market had already made most of its move, and no informational advantage remained to be protected. The news was by then far larger than the one to two cent cost of trading, so the explanation that works for the first window no longer applies. This five-minute delay, occurring after the whole world already knew, is what we call informational inertia, and we use the term only for it.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-the-episode-does-not-show&quot;&gt;What the Episode Does Not Show&lt;/h3&gt;
+
+&lt;p&gt;An episode like this invites overstatement in both directions, so three qualifications deserve emphasis:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;It is not about time zones&lt;/strong&gt;: Polymarket blocked U.S. users at the time, which raises the possibility that 8:00 in the morning in New York simply found its traders asleep. The clock says otherwise. That hour is 1:00 in the afternoon in London, 2:00 in the afternoon across continental Europe and 8:00 in the evening in Singapore, all ordinary trading hours for the platform’s largely non-American user base. Being awake, however, is not the same as watching. What the platform lacked was the automated machinery that alerts professional traders the instant a data file appears.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;It is not a verdict on prediction markets as a class&lt;/strong&gt;: what the episode exposes is the cost of one particular setup in one particular month. Polymarket in May 2024 had no market makers paid to keep its quotes fresh, no automated news feeds, and none of the fast direct data connections professional venues rely on. The gap we measure concerns who was watching, not the technology used to match trades. Bitcoin trades on a conventional centralized exchange and Polymarket does not, but that difference is not what separated them on May 15. Automated systems were watching Bitcoin and the futures market alike. Nothing comparable was watching Polymarket.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;It is not a general estimate&lt;/strong&gt;: this is one incident. We looked for others and found none, since no comparable verified early release has been documented on Kalshi, PredictIt or any other platform. With a single event and four comparison mornings, our statistical tests are better understood as setting bounds than as proving a hypothesis, and we present them that way. One question does deserve a straight answer, namely whether the silence we found is simply too faint for our tests to detect. It is not. The smallest movement our design could reliably have caught is more than twice the movement we actually observed.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;why-the-episode-is-worth-recording&quot;&gt;Why the Episode Is Worth Recording&lt;/h3&gt;
+
+&lt;p&gt;Prediction markets are good at pooling the judgments of many people over days and weeks, and that is a real strength. At the scale of minutes, though, a market is only as alert as the people and programs watching it. In May 2024, on this platform, almost nobody was, and an accidental early release is what made that visible. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Polymarket has changed a great deal since then. Trading volume, market depth and automated participation have all grown substantially, and the same incident today might well be priced within seconds. That is precisely why the episode is worth writing down. It gives us a before picture, a measurement of how quickly a major betting platform reacted to real news before the money and the machines arrived, against which later measurements can be compared. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Whether closing the remaining gap requires paid market makers, better technical access for automated traders, cheaper movement of funds between platforms, or simply more traders, is an open question about market design. Future episodes, on Polymarket or on competitors such as Kalshi and PredictIt, will help answer it.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.frl.2026.110378&quot;&gt;Aktuğ, E., &amp;amp; Torul, O. (2026)&lt;/a&gt;. Informational Inertia in a Decentralized Prediction Market: Evidence from the May 2024 CPI Leak. &lt;em&gt;Finance Research Letters&lt;/em&gt;, 108, 110378.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.bls.gov/bls/early-data-release-05152024.htm&quot;&gt;Bureau of Labor Statistics (2024)&lt;/a&gt;. Early Release of CPI and Real Earnings Data on May 15, 2024.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.7910/DVN/7FWIQO&quot;&gt;Replication code and redistributable data&lt;/a&gt; are deposited at Harvard Dataverse.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://orhantorul.com/cpi-leak/&quot;&gt;Thirty-Five Minutes of Silence&lt;/a&gt; was originally published by Orhan Torul at &lt;a href=&quot;https://orhantorul.com&quot;&gt;Orhan Torul&lt;/a&gt; on September 11, 2026.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Çalkantılı Dönemlerde Şaşırtıcı Eğilimler]]></title>
+  <link rel="alternate" type="text/html" href="https://orhantorul.com/yakin-donemdeki-esitsizlikler/" />
+  <id>https://orhantorul.com/yakin-donemdeki-esitsizlikler</id>
+  <published>2024-08-01T00:00:00+03:00</published>
+  <updated>2024-08-01T00:00:00+03:00</updated>
+  <author>
+    <name>Orhan Torul</name>
+    <uri>https://orhantorul.com</uri>
+    <email>orhan.torul@bogazici.edu.tr</email>
+  </author>
+  <content type="html">&lt;hr /&gt;
+
+&lt;p&gt;Türkiye ekonomisi son yıllarda döviz krizleri, yüksek enflasyon ve alışılmadık politikalar gibi zorluklarla karşı karşıya kalarak inişli çıkışlı bir seyir izledi. Peki bu çarpıcı olaylar ülkedeki ekonomik eşitsizlikleri nasıl etkiledi? Yakın zamanda yayımladığımız &lt;a href=&quot;https://doi.org/10.1017/npt.2025.10050&quot;&gt;makalede&lt;/a&gt;, bu soruyu merkeze alarak 2002 ile 2022 arasındaki dönemi inceliyoruz ve Türkiye’deki ücret, gelir ve tüketim eşitsizliğinde şaşırtıcı eğilimleri ortaya koyuyoruz. İşte bulgularımızın kısa bir özeti:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-ücret-eşitsizliği-düşmeye-devam-ediyor&quot;&gt;1. Ücret Eşitsizliği Düşmeye Devam Ediyor&lt;/h3&gt;
+
+&lt;p&gt;Yaygın kanının aksine, Türkiye’de ücret eşitsizliği, son dönemdeki ekonomik çalkantılara rağmen, istikrarlı bir şekilde düşmeye devam ediyor. Bir başka deyişle, yüksek ve düşük gelirli çalışanlar arasındaki ücret farkı azalma eğilimini sürdürüyor. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Peki bu trendi ne belirliyor? Bu eğilimin ortaya çıkmasında birkaç faktörün rol oynadığını gösteriyoruz:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Asgari ücrette önemli artışlar:&lt;/strong&gt; İlk olarak, asgari ücretteki önemli artışlara dikkat çekmek gerekiyor. Bu artışlar, gelir dağılımının alt ucundaki kazançları yükseltiyor ve Türkiye’deki işgücünün önemli bir kısmını (en az beşte ikisini) doğrudan etkiliyor. Son dönemdeki agresif asgari ücret zamları, muhtemelen Türkiye’nin alışılmadık ekonomi politikalarının bir sonucu olarak, düşük gelirli çalışanları hedefleyerek ücret eşitsizliğinin azalmasına önemli katkı sağlıyor.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;İşgücünde hızla artan üniversite mezunu oranı:&lt;/strong&gt; İkinci olarak, işgücünde hızla artan üniversite mezunu oranı dikkat çekiyor. Bu durum, yüksek maaşlı işler için rekabeti artırarak üst düzey ücretler üzerinde aşağı yönlü bir baskı oluşturuyor.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Azalan “üniversite primi”:&lt;/strong&gt; En çarpıcı bulgularımızdan biri ise, “üniversite primi” olarak adlandırdığımız, üniversite mezunlarının lise mezunlarına göre sahip oldukları ücret avantajının, özellikle son yıllarda daralması.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bu durumun iki nedeni olabileceğini düşünüyoruz:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bir yandan, Türkiye’de üniversitelerin hızla yaygınlaşması mezun arzını önemli ölçüde artırıyor ve bu mezunların bir kısmı nispeten daha düşük kaliteli kurumlardan geliyor.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Diğer yandan, eğitim kalitesinin durağanlaşması ve işverenlerin değişen beceri talepleri de bu trende katkıda bulunuyor olabilir.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bu eğilimin, Türkiye’de yükseköğretimin değeri ve gençlerin kariyer seçimleri üzerinde önemli etkileri olabilir. Sormamız gereken sorular şunlar: Üniversite okumanın getirdiği ücret avantajı azalmaya devam ederse gençler üniversite eğitimini hala değerli bir yatırım olarak görecek mi? Bu durum, Türkiye’nin halihazırda karşı karşıya olduğu beyin göçünü ne ölçüde artıracak? Bu sorular, özellikle insan sermayesinin giderek daha kritik bir rol oynadığı günümüz bilgi temelli ekonomisinde kritik öneme sahip.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-gelir-eşitsizliği-yakın-zamanda-tersine-dönen-karmaşık-bir-tablo&quot;&gt;2. Gelir Eşitsizliği: Yakın Zamanda Tersine Dönen Karmaşık Bir Tablo&lt;/h3&gt;
+
+&lt;p&gt;Ücret eşitsizliği azalırken, gelir eşitsizliği daha karmaşık bir tablo çiziyor. Makalemizde, gelir eşitsizliğinin 2002-2022 dönemi boyunca genel olarak azalma eğiliminde olduğunu, ancak son dönemde bu eğilimin tersine dönmeye başladığını gösteriyoruz. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ücret eşitsizliği ve gelir eşitsizliği trendlerindeki temel fark, ücret hesaplamalarına dahil edilmeyen, özellikle sermaye geliri ve girişimci geliri gibi emek-dışı gelir kalemlerinde artan eşitsizlikten kaynaklanıyor. Bu durum, bir yandan ücretli çalışanlar arasında eşitliğin arttığını, diğer yandan önemli yatırımları veya işletme geliri olanların öne çıktığını gösteriyor. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bu karmaşık tabloya katkıda bulunan birkaç faktör olduğunu düşünüyoruz:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Kur Korumalı Mevduat (KKM) uygulamasının başlatılması:&lt;/strong&gt; Türkiye’nin alışılmadık ekonomik yaklaşımının bir parçası olan bu politika, muhtemelen daha varlıklı hanelere daha fazla yarar sağlıyor, zira bu haneler, Türkiye’deki vergi mükelleflerinin pahasına bu programdan yararlanacak kaynaklara sahip. Dolayısıyla, bu durum, gelir eşitsizliğindeki son artışa katkıda bulunmuş olabilir.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Farklı gelir kaynaklarında ayrışan eğilimler:&lt;/strong&gt; Emek geliri (ücret ve maaşlar) giderek daha eşit dağılırken, kira geliri, faiz kazançları ve işletme karları gibi diğer gelir kaynakları üst gelir gruplarında daha yoğun hale geliyor.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Ekonomik dalgalanma:&lt;/strong&gt; Son dönemdeki yüksek enflasyon ve Türk lirasının değer kaybı gibi ekonomik zorluklar, farklı gelir gruplarını orantısız bir şekilde etkilemiş olabilir. Bu risklere karşı yatırımlar veya döviz varlıkları yoluyla korunabilenler, göreli gelir pozisyonlarını iyileştirmiş olabilir.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Gelir eşitsizliğindeki eğilimler, genel ekonomik eşitsizlikleri değerlendirirken ücret eşitsizliğinin ötesine bakmanın önemini vurguluyor. Dolayısıyla, eşitsizliği azaltmayı amaçlayan politikalar, sadece işgücü piyasası müdahalelerini değil, aynı zamanda servet yoğunlaşması ve yatırım gelirini ele alan daha geniş kapsamlı önlemleri de içermeli.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-tüketim-eşitsizliği-şaşırtıcı-bir-artış&quot;&gt;3. Tüketim Eşitsizliği: Şaşırtıcı Bir Artış&lt;/h3&gt;
+
+&lt;p&gt;Makalenin belki de en çarpıcı bulgusu, tüketim eşitsizliğinde yakın zamanda yaşanan sıçrama. 2002-2022 arası dönemde ilk kez, tüketim eşitsizliği gelir eşitsizliğini önemli ölçüde aşıyor. Bu, insanların harcamaları (sadece kazandıkları değil) arasındaki farkın önemli ölçüde açıldığı anlamına geliyor. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bu eğilimin ardında ne var? Bunun ağırlıklı olarak en yüksek yüzde 10’luk gelir grubunun dayanıklı mallara (ev aletleri, araçlar ve elektronik eşyalar gibi) yönelik artan harcamalarından kaynaklandığını görüyoruz. Bu durum, daha varlıklı hanelerin servetlerini yüksek enflasyona karşı fiziksel varlıklara yatırım yaparak korumaya çalışmasının bir sonucu olabilir. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bu tabloya katkıda bulunan birkaç faktör olabilir:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Enflasyonist baskılar:&lt;/strong&gt; Yüksek enflasyon ortamında, daha varlıklı haneler tüketimlerini, özellikle de dayanıklı mallar açısından, para biriminin değer kaybına karşı bir koruma olarak sürdürmüş veya artırmış olabilir.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Krediye erişim:&lt;/strong&gt; Yüksek gelirli gruplar, ekonomik açıdan belirsiz zamanlarda bile büyük harcamalarını finanse etmelerini sağlayan daha iyi kredi erişimine sahip olabilir.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Gelecekteki ekonomik koşullara ilişkin beklentiler:&lt;/strong&gt; Daha varlıklı haneler, daha fazla ekonomik zorluk veya fiyat artışı beklentisiyle büyük alımlarını öne çekiyor ve hızlandırıyor olabilir.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Ekonomi politikalarının eşitsiz etkisi:&lt;/strong&gt; Türkiye’nin alışılmadık bazı ekonomik önlemleri istenmeyen sonuçlar doğurmuş, tüketim eşitsizliğindeki artışı körüklemiş olabilir. Örneğin, ekonomik büyümeyi teşvik etmeyi amaçlayan politikalar, halihazırda daha güçlü bir finansal konumda olan gruplara orantısız bir şekilde fayda sağlamış olabilir.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Gelir ve tüketim eşitsizliği arasındaki bu ayrışma, ekonomik çalkantıların toplumun farklı kesimlerini beklenmedik şekillerde nasıl etkileyebileceğini gösteriyor. Bazıları ücretlerinin diğerlerine göre arttığını görürken, yaşam standartlarını koruma veya harcama yoluyla serveti koruma imkanı giderek daha eşitsiz hale geliyor olabilir.&lt;/p&gt;
+
+&lt;h3 id=&quot;peki-tüm-bunlar-ne-anlama-geliyor&quot;&gt;Peki Tüm Bunlar Ne Anlama Geliyor?&lt;/h3&gt;
+
+&lt;p&gt;Bu yeni araştırma, Türkiye’deki ekonomik eşitsizliğin karmaşık bir resmini çiziyor. Bir yandan, incelenen dönemin büyük bir kısmında ücret farklarının daralması ve gelir eşitsizliğindeki genel düşüş olumlu gelişmeler olarak görülebilir. Öte yandan, gelir eşitsizliğindeki son artış ve tüketim eşitsizliğindeki sıçrama, ekonomik zorlukların ve politika tepkilerinin yeni eşitsizlikler yaratabileceğini gösteriyor. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Türkiye ekonomik zorluklarla mücadele etmeye devam ederken, politika yapıcıların eşitsizlikteki bu nüanslı eğilimleri dikkatle değerlendirmesi gerekiyor. Ücret farklılıklarını ele almak önemli, ancak toplumun tüm kesimlerinin ekonomik belirsizlik karşısında yaşam standartlarını koruyabilmesini sağlamak da bir o kadar önemli. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bu çalışmanın, Türkiye’deki ekonomik eşitsizliklerin karmaşık dinamikleri hakkında değerli bulgular sağladığına inanıyoruz. Durum gelişmeye devam ederken, son ekonomik eğilimlerin ve politika seçimlerinin gelir dağılımının tamamındaki hanelerin refahı üzerindeki etkilerini anlamak için daha fazla araştırma yapmanın önemli olduğunu düşünüyoruz.&lt;/p&gt;
+
+&lt;h3 id=&quot;referanslar&quot;&gt;Referanslar&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1017/npt.2025.10050&quot;&gt;Kaçmaz, Y. S., Kuzubaş, T. U., Tarlacı, İ., Torul, O. (2025)&lt;/a&gt;. Unequal Outcomes in Unequal Times: The Distributional Consequences of Turkey’s Unorthodox Policies. &lt;em&gt;New Perspectives on Turkey&lt;/em&gt;, 2025, 73, 32-–51.&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://orhantorul.com/yakin-donemdeki-esitsizlikler/&quot;&gt;Çalkantılı Dönemlerde Şaşırtıcı Eğilimler&lt;/a&gt; was originally published by Orhan Torul at &lt;a href=&quot;https://orhantorul.com&quot;&gt;Orhan Torul&lt;/a&gt; on August 01, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Surprising Trends Amid Turbulent Times]]></title>
+  <link rel="alternate" type="text/html" href="https://orhantorul.com/recent-inequality/" />
+  <id>https://orhantorul.com/recent-inequality</id>
+  <published>2024-07-29T00:00:00+03:00</published>
+  <updated>2024-07-29T00:00:00+03:00</updated>
+  <author>
+    <name>Orhan Torul</name>
+    <uri>https://orhantorul.com</uri>
+    <email>orhan.torul@bogazici.edu.tr</email>
+  </author>
+  <content type="html">&lt;hr /&gt;
+
+&lt;p&gt;Turkey’s economy has been on a rollercoaster ride in recent years, facing challenges like currency crises, high inflation, and unorthodox policy responses. But how have these dramatic events affected economic inequality in the country? In a &lt;a href=&quot;https://doi.org/10.1017/npt.2025.10050&quot;&gt;recent paper&lt;/a&gt;, my co-authors and I address this question and offer novel insights. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We study the period between 2002 and 2022 and document several unexpected trends in wage, income, and consumption inequality in Turkey. Here is a brief breakdown of our findings:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-wage-inequality-is-actually-decreasing&quot;&gt;1. Wage Inequality Is Actually Decreasing&lt;/h3&gt;
+
+&lt;p&gt;Contrary to what many might expect, wage inequality in Turkey has been on a consistent downward trend, even during recent economic turmoil. This means that the gap between high and low earners in terms of wages has been shrinking. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What’s driving this trend? Several factors are at play:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Substantial increases in the minimum wage&lt;/strong&gt;: This has boosted earnings at the lower end of the income scale, which directly impacts a notable fraction (at least two fifths) of the Turkish workforce. Recent aggressive minimum wage hikes, possibly a byproduct of Turkey’s unorthodox economic policies, have directly targeted lower-income workers, contributing significantly to the reduction in wage inequality.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;A rapidly growing proportion of university graduates in the workforce&lt;/strong&gt;: This has increased competition for higher-paying jobs, potentially putting downward pressure on wages at the upper end.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Declining “college premium”&lt;/strong&gt;: One of the most stark findings is that the wage advantage university graduates typically enjoy over those with only a high school education has been narrowing, especially in recent years.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We suggest two possible determinants for the declining college premium:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;A rapid expansion of universities in Turkey, which has led to a considerably larger supply of graduates, including some from potentially lower-quality institutions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Stagnant educational quality combined with changing employer demands for skills.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This trend could have important implications for the value of higher education in Turkey and the career choices of young people. Will young people continue to see university education as a worthwhile investment if the wage benefits continue to shrink? To what extent will this exacerbate the brain drain Turkey already faces? These issues are particularly crucial in today’s knowledge-based economy, where human capital plays an increasingly vital role.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-income-inequality-a-complex-picture-with-recent-reversals&quot;&gt;2. Income Inequality: A Complex Picture with Recent Reversals&lt;/h3&gt;
+
+&lt;p&gt;While wage inequality has been decreasing, the story for overall income inequality is more nuanced. Income inequality also showed a general downward trend for much of the study period but has recently started to reverse. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The key difference lies in the rising inequality of non-labor income components, particularly capital income (from investments) and entrepreneurial income. This suggests that while wage earners are seeing more equality, those with significant investments or business income are pulling ahead. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Several factors contribute to this complex picture:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The introduction of Foreign Exchange-Protected Deposits&lt;/strong&gt;: This policy, part of Turkey’s unorthodox economic approach, likely benefited wealthier households more, as they had the resources to take advantage of this scheme at the expense of Turkish taxpayers. This may have contributed to the recent uptick in income inequality.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Divergent trends in different income sources&lt;/strong&gt;: While labor income (wages and salaries) has become more equally distributed, other income sources like rental income, interest earnings, and profits from businesses have become more concentrated among top earners.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Economic volatility&lt;/strong&gt;: Turkey’s recent economic challenges, including high inflation and currency depreciation, may have disproportionately affected different income groups. Those able to hedge against these risks through investments or foreign currency holdings may have seen their relative income position improve.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We note that these trends highlight the importance of looking beyond just wage inequality when assessing overall economic disparities. Policies aimed at reducing inequality may need to consider not just labor market interventions but also measures addressing wealth concentration and investment income.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-consumption-inequality-a-surprising-surge&quot;&gt;3. Consumption Inequality: A Surprising Surge&lt;/h3&gt;
+
+&lt;p&gt;Perhaps the most striking finding is the recent surge in consumption inequality. For the first time in the period studied, consumption inequality has significantly surpassed income inequality. This means that the gap in what people are actually spending (rather than just earning) has widened significantly.&lt;/p&gt;
+
+&lt;p&gt;What’s behind this trend? We found that it was predominantly driven by increased spending on durable goods (things like appliances, vehicles, and electronics) among the top-income group. This could be a result of wealthier households trying to protect their wealth against high inflation by investing in physical assets. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Several factors may be contributing to this phenomenon:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Inflationary pressures&lt;/strong&gt;: With Turkey experiencing high inflation rates, wealthier households may be more able to maintain or increase their consumption, particularly of durable goods, as a hedge against currency depreciation.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Credit access&lt;/strong&gt;: Higher-income groups may have better access to credit, allowing them to finance large purchases even in economically uncertain times.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Expectations of future economic conditions&lt;/strong&gt;: Wealthier households might be accelerating major purchases in anticipation of further economic challenges or price increases.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Uneven impact of economic policies&lt;/strong&gt;: Some of Turkey’s unorthodox economic measures may have had unintended consequences, potentially fueling the increase in consumption inequality. For instance, policies aimed at stimulating economic growth might have disproportionately benefited those already in a stronger financial position.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This divergence between income and consumption inequality highlights how economic turbulence can affect different segments of society in unexpected ways. While some may be seeing their wages rise relative to others, the ability to maintain living standards or protect wealth through spending may be increasingly unequal.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-does-it-all-mean&quot;&gt;What Does It All Mean?&lt;/h3&gt;
+
+&lt;p&gt;This new research paints a complex picture of economic inequality in Turkey. On one hand, the narrowing of wage gaps and overall decline in income inequality for much of the period studied could be seen as positive developments. On the other hand, the recent uptick in income inequality and the surge in consumption inequality suggest that economic challenges and policy responses may be creating new forms of disparity. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;As Turkey continues to navigate economic challenges, policymakers will need to carefully consider these nuanced trends in inequality. Addressing wage disparities is important, but so too is ensuring that all segments of society can maintain their standard of living in the face of economic uncertainty. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We believe this study provides valuable insights into the complex dynamics of inequality in an emerging economy facing significant challenges. As the situation continues to evolve, further research will be crucial to understand the long-term impacts of recent economic trends and policy choices on the financial well-being of Turkish citizens across the income spectrum.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1017/npt.2025.10050&quot;&gt;Kaçmaz, Y. S., Kuzubaş, T. U., Tarlacı, İ., Torul, O. (2025)&lt;/a&gt;. Unequal Outcomes in Unequal Times: The Distributional Consequences of Turkey’s Unorthodox Policies. &lt;em&gt;New Perspectives on Turkey&lt;/em&gt;, 2025, 73, 32-–51.&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://orhantorul.com/recent-inequality/&quot;&gt;Surprising Trends Amid Turbulent Times&lt;/a&gt; was originally published by Orhan Torul at &lt;a href=&quot;https://orhantorul.com&quot;&gt;Orhan Torul&lt;/a&gt; on July 29, 2024.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Tom Sargent's Views on Economics]]></title>
+  <link rel="alternate" type="text/html" href="https://orhantorul.com/basics-of-economics/" />
+  <id>https://orhantorul.com/basics-of-economics</id>
+  <published>2023-09-01T00:00:00+03:00</published>
+  <updated>2023-09-01T00:00:00+03:00</updated>
+  <author>
+    <name>Orhan Torul</name>
+    <uri>https://orhantorul.com</uri>
+    <email>orhan.torul@bogazici.edu.tr</email>
+  </author>
+  <content type="html">&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.tomsargent.com/&quot;&gt;Thomas Sargent&lt;/a&gt; is an American economist who won the Nobel Prize in Economics in 2011 (along with Christopher Sims). He is known for his work on macroeconomic modeling and rational expectations theory. Some of Sargent’s key contributions include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Developing dynamic stochastic general equilibrium (DSGE) models to analyze macroeconomic policies and phenomena. These models incorporate microfoundations and assumptions of rational expectations.&lt;/li&gt;
+  &lt;li&gt;Pioneering the use of rational expectations in macroeconomic models. This assumes economic agents make decisions based on all available information and past experiences. It challenged traditional Keynesian models.&lt;/li&gt;
+  &lt;li&gt;Providing mathematical and statistical frameworks to test competing macroeconomic theories and models. This improved empirical rigor in macroeconomics.&lt;/li&gt;
+  &lt;li&gt;Analyzing monetary policy and the connections between economic policy and macro outcomes through quantitative models. His work demonstrated the importance of focusing on policy rules rather than discretion.&lt;/li&gt;
+  &lt;li&gt;Advancing the “policy irrelevance proposition” which states macroeconomic policies cannot systematically manage aggregate demand due to rational expectations offsetting official actions.&lt;/li&gt;
+  &lt;li&gt;Developing the “fiscal theory of the price level” which shows fiscal policy can determine the price level given certain conditions. This challenged traditional monetary policy dominance theories.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In his &lt;a href=&quot;https://eml.berkeley.edu/econ/UC_graduation_speech_2007.pdf&quot;&gt;graduation speech to Berkeley undergraduates in 2007&lt;/a&gt;, he discusses the basic principles and properties of economics as follows:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Economics is organized common sense. Here is a short list of valuable lessons that our beautiful subject teaches:&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Many things that are desirable are not feasible.&lt;/li&gt;
+    &lt;li&gt;Individuals and communities face trade-offs.&lt;/li&gt;
+    &lt;li&gt;Other people have more information about their abilities, their efforts,
+ and their preferences than you do.&lt;/li&gt;
+    &lt;li&gt;Everyone responds to incentives, including people you want to help. That
+is why social safety nets don’t always end up working as intended.&lt;/li&gt;
+    &lt;li&gt;There are tradeoffs between equality and efficiency.&lt;/li&gt;
+    &lt;li&gt;In an equilibrium of a game or an economy, people are satisfied with their
+choices. That is why it is difficult for well meaning outsiders to change
+things for better or worse.&lt;/li&gt;
+    &lt;li&gt;In the future, you too will respond to incentives. That is why there are
+some promises that you’d like to make but can’t. No one will believe those
+promises because they know that later it will not be in your interest to
+deliver. The lesson here is this: before you make a promise, think about
+whether you will want to keep it if and when your circumstances change.
+This is how you earn a reputation.&lt;/li&gt;
+    &lt;li&gt;Governments and voters respond to incentives too. That is why governments sometimes default on loans and other promises that they have made.&lt;/li&gt;
+    &lt;li&gt;It is feasible for one generation to shift costs to subsequent ones. That is
+what national government debts and the U.S. social security system do
+(but not the social security system of Singapore).&lt;/li&gt;
+    &lt;li&gt;When a government spends, its citizens eventually pay, either today or
+tomorrow, either through explicit taxes or implicit ones like inflation.&lt;/li&gt;
+    &lt;li&gt;Most people want other people to pay for public goods and government
+transfers (especially transfers to themselves).&lt;/li&gt;
+    &lt;li&gt;Because market prices aggregate traders’ information, it is difficult to forecast stock prices and interest rates and exchange rates.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As a pioneer in shaping modern macroeconomics through rational expectations theories, DSGE modeling, and empirically testing macroeconomic policies and assumptions, Tom Sargent’s contributions in quantitative approach continues increasing rigor to the field of economics. For his and his team’s latest legacy, explore the phenomenal &lt;a href=&quot;https://quantecon.org/&quot;&gt;QuantEcon&lt;/a&gt; project.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://orhantorul.com/basics-of-economics/&quot;&gt;Tom Sargent's Views on Economics&lt;/a&gt; was originally published by Orhan Torul at &lt;a href=&quot;https://orhantorul.com&quot;&gt;Orhan Torul&lt;/a&gt; on September 01, 2023.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[A Brief Survey on Turkey's Economic Inequalities]]></title>
+  <link rel="alternate" type="text/html" href="https://orhantorul.com/inequality-survey/" />
+  <id>https://orhantorul.com/inequality-survey</id>
+  <published>2023-08-20T00:00:00+03:00</published>
+  <updated>2023-08-20T00:00:00+03:00</updated>
+  <author>
+    <name>Orhan Torul</name>
+    <uri>https://orhantorul.com</uri>
+    <email>orhan.torul@bogazici.edu.tr</email>
+  </author>
+  <content type="html">&lt;hr /&gt;
+
+&lt;p&gt;Turkey has persistently ranked as one of the most economically unequal countries among OECD nations. While income inequality has stagnated at a high level in recent years, wealth inequality appears to be increasing and stands as the second highest globally as of 2014 &lt;a href=&quot;https://doi.org/10.1016/j.cbrev.2018.06.002&quot;&gt;(Torul and Öztunalı 2018)&lt;/a&gt;. Understanding the sources and implications of Turkey’s high inequality has become an important priority for Turkish policymakers and a focus of academic research. This post reviews three recent studies that have explored different dimensions of inequality in Turkey using a range of methodologies. Together, these studies paint a picture of an economy with deeply entrenched inequalities across multiple distributional measures. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first paper by &lt;a href=&quot;https://doi.org/10.1007/s00181-020-01848-w&quot;&gt;Aktuğ, Kuzubaş, and Torul (2021)&lt;/a&gt; provides a detailed analysis of heterogeneity in labor income profiles —&lt;em&gt;how income varies over the lifecycle&lt;/em&gt;— in Turkey. Using microdata from the Turkish Statistical Institute’s Household Labor Force Survey from 2004-2018, the authors are able to examine differences in income trajectories across education levels, gender, and public versus private sector employment. One key finding is that while the average income profile has a hump shape over the lifecycle peaking around age 50, public sector employees exhibit steadily upward-sloping income trajectories. This contrasts with a hump-shape pattern seen for private sector employees. The study highlights a significant gender pay gap, especially for less educated workers, with males earning 20% or higher incomes than females on average. This aligns with Turkey’s historically low female labor force participation rate of around 30%. For university graduates, the study reveals a tradeoff between higher average incomes but greater risk in the private sector compared to the public sector. Overall, the analysis shows that abstracting away from any of these dimensions —&lt;em&gt;education, gender, sector&lt;/em&gt;— could lead to misleading characterizations of aggregate labor income patterns. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Building on these results, &lt;a href=&quot;https://doi.org/10.1007/s10888-019-09436-4&quot;&gt;Tamkoç and Torul (2020)&lt;/a&gt; investigate how different measures of economic inequality —&lt;em&gt;wages, income, and consumption&lt;/em&gt;— have evolved in Turkey from 2002 to 2016. Using microdata from the Turkish Statistical Institute, the study documents significant declines across all three inequality indicators over this period. The authors link this to Turkey’s rapid real minimum wage growth as well as falling informal employment and rising social protection spending. An interesting finding is the strongly countercyclical pattern of wage inequality, contrasting with the acyclical movements in income and consumption inequality. Turning to determinants of wages, the study shows that while education premiums have been stable, gender and experience premiums have fallen, as has residual wage inequality. Overall, the time path of inequality in Turkey resembles that of Russia most closely among the countries examined. The authors update their results using new data &lt;a href=&quot;https://orhantorul.com/csfm&quot;&gt;here&lt;/a&gt;. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Shifting from a focus on income to wealth, &lt;a href=&quot;https://doi.org/10.1016/j.cbrev.2018.06.002&quot;&gt;Torul and Öztunalı (2018)&lt;/a&gt; provide the first analysis of wealth inequality in Turkey using a heterogeneous-agent general equilibrium model. The model is calibrated to match empirical estimates of income and wealth inequality in 2014. It successfully replicates Turkey’s high wealth concentration and income inequality across several metrics. Comparison with other developed economies confirms Turkey has the highest income inequality in Europe. The simulated wealth inequality also surpasses most other countries studied, with only Russia and the United States exhibiting higher wealth concentration. An important contribution is the estimation of high welfare costs of inequality equivalent to a 25-43% permanent decline in consumption. This implies Turkey’s high inequality comes at a considerable welfare loss for Turkish citizens. Recently, &lt;a href=&quot;https://doi.org/10.1016/j.cbrev.2023.100132&quot;&gt;Ceritoğlu, Cılasun, Küçükbayrak, and Sevinç (2023)&lt;/a&gt; verify a similar wealth inequality Gini of 0.773 using micro data from the Central Bank of Turkey’s Household Finance and Consumption Survey. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Synthesizing the results across these studies yields several broad conclusions. First, Turkey exhibits exceptionally high economic inequality, whether measured by income, wages, consumption or wealth, exceeding all other European countries. Second, inequality has moderated over the 2000s but remains very high in absolute terms. Rapid minimum wage growth and expanding social protection programs contributed to the decline. Third, dimensions like education, gender, sector of employment, and labor market policies are critical in shaping Turkey’s inequality. Fourth, Turkish citizens bear significant welfare costs due to high inequality. Further research is needed to better understand the evolution and implications of Turkey’s inequality but reducing it could produce substantial welfare gains. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The studies point to some priorities for Turkish policymakers concerned with mitigating inequality. Boosting educational attainment, especially among women, and fostering their entrance to the labor market can help reduce income gaps. Continued formalization of employment and increases in the minimum wage can compress the wage distribution from below. Expanding social protection measures can provide insurance against income volatility. And more progressive tax policies can curb wealth concentration at the top. Multiple policy levers are available to Turkish authorities seeking to tackle inequality and promote greater economic fairness. &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;While recent academic research has greatly expanded our understanding of inequality in Turkey, open questions remain. More work is needed to explicate the dynamics of Turkish wealth inequality, given the limitations of existing data. Understanding how inequality responds to macroeconomic conditions and policies merits further study as Turkey enters a new low-growth regime. Explicitly modeling distributional impacts should become integral to economic policy analysis in Turkey. On the whole, the problem of inequality deserves continued attention from both Turkish policymakers and researchers.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1007/s00181-020-01848-w&quot;&gt;Aktuğ, E., Kuzubaş, T.U., &amp;amp; Torul, O. (2021)&lt;/a&gt;. Heterogeneity in Labor Income Profiles: Evidence from Turkey. &lt;em&gt;Empirical Economics&lt;/em&gt;, 60(5), 2557-–2587.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.cbrev.2023.100132&quot;&gt;Ceritoğlu, E., Cılasun, S. M., Küçükbayrak, M., &amp;amp; Sevinç, Ö. (2023)&lt;/a&gt;. Household Portfolios in Türkiye: Results from the Household Finance and Consumption Survey. &lt;em&gt;Central Bank Review&lt;/em&gt;, 23(4), 100132.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1007/s10888-019-09436-4&quot;&gt;Tamkoç, M. N., &amp;amp; Torul, O. (2020)&lt;/a&gt;. Cross-Sectional Facts for Macroeconomists: Wage, Income and Consumption Inequality in Turkey. &lt;em&gt;The Journal of Economic Inequality&lt;/em&gt;, 18(2):239–-259&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.cbrev.2018.06.002&quot;&gt;Torul, O., &amp;amp; Öztunalı, O. (2018)&lt;/a&gt;. On Income and Wealth Inequality in Turkey. &lt;em&gt;Central Bank Review&lt;/em&gt;, 18(3), 95–106.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://orhantorul.com/inequality-survey/&quot;&gt;A Brief Survey on Turkey's Economic Inequalities&lt;/a&gt; was originally published by Orhan Torul at &lt;a href=&quot;https://orhantorul.com&quot;&gt;Orhan Torul&lt;/a&gt; on August 20, 2023.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[A Brief Survey on Intergenerational Mobility in Turkey]]></title>
+  <link rel="alternate" type="text/html" href="https://orhantorul.com/intergenerational-mobility-survey/" />
+  <id>https://orhantorul.com/intergenerational-mobility-survey</id>
+  <published>2023-08-19T00:00:00+03:00</published>
+  <updated>2023-08-19T00:00:00+03:00</updated>
+  <author>
+    <name>Orhan Torul</name>
+    <uri>https://orhantorul.com</uri>
+    <email>orhan.torul@bogazici.edu.tr</email>
+  </author>
+  <content type="html">&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Intergenerational mobility&lt;/em&gt; refers to the extent to which an individual’s socioeconomic outcomes are associated with the outcomes of their parents. High intergenerational mobility implies that an individual’s economic fortunes are not strongly tied to their family background. In contrast, low mobility indicates that one’s economic status is largely determined by the status of their parents. The study of intergenerational mobility sheds light on equality of opportunity and the degree to which advantages and disadvantages are passed down from generation to generation within a society.&lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Turkey provides an interesting case study for analyzing intergenerational mobility. Over the past century, the country has undergone rapid economic development and structural transformation. GDP per capita has increased over 20-fold and the economy has shifted from being predominantly agricultural to being led by the industrial and service sectors &lt;a href=&quot;https://doi.org/10.1016/j.euroecorev.2019.04.003&quot;&gt;(Aydemir and Yazıcı 2019)&lt;/a&gt;. Alongside this economic growth, there have been major expansions in access to education. For instance, the proportion of adults with no schooling decreased from around 75% in 1927 to under 5% by 2013 &lt;a href=&quot;https://doi.org/10.1080/1540496X.2022.2082282&quot;&gt;(Öztunalı and Torul 2022)&lt;/a&gt;. However, inequality remains relatively high in Turkey, with a Gini coefficient of 0.40 that ranks atop among OECD countries &lt;a href=&quot;https://doi.org/10.1007/s10888-019-09436-4&quot;&gt;(Tamkoç and Torul 2020)&lt;/a&gt;. Examining how intergenerational linkages in socioeconomic outcomes have evolved throughout this period of rapid development provides useful insights.&lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The following three articles analyze intergenerational mobility in Turkey using different measures and methodologies.&lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.euroecorev.2019.04.003&quot;&gt;Aydemir and Yazıcı (2019)&lt;/a&gt; focus on educational mobility, defined as the association between an individual’s educational attainment and their parents’ education level. They use data from a nationwide household survey conducted in 2014-2015 that collected information on respondents’ education levels as well as retrospective information on parental education. Their analysis yields several key findings:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The intergenerational regression coefficient for years of schooling is around 0.7 for both fathers and mothers. This indicates a relatively high degree of persistence in educational outcomes across generations in Turkey.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Educational mobility is significantly lower for women compared to men. Each additional year of mothers’ schooling is associated with 0.24 more years of schooling for daughters but only 0.13 more years for sons.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There is substantial regional variation in intergenerational educational mobility within Turkey. Mobility is higher in more developed provinces, suggesting development level is positively associated with mobility.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Persistence between grandparents’ and descendants’ education becomes insignificant once controlling for parents’ education, implying no direct grandparental effects.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1080/1540496X.2022.2082282&quot;&gt;Öztunalı and Torul (2022)&lt;/a&gt; also analyze educational mobility, yet with a time-series perspective using a different data source – the Turkish Statistical Institute’s Survey of Income and Living Conditions (SILC) Intergenerational Transmission of Disadvantages Module in 2010. This dataset has information on individuals’ education level as well as their fathers’ education. The authors make use of retrospective education categories in addition to years of schooling. Their key findings include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Turkey has low intergenerational educational mobility compared to most developed countries based on regression and correlation coefficients. For instance, Turkey’s year’s of schooling correlation estimate of 0.49 is comparable to that of Hungary, Austria and Italy.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Educational mobility displayed a U-shaped pattern over cohorts born between 1951-1985. This means mobility improved for early cohorts as the education levels of those with uneducated fathers increased faster than those with more educated fathers. However, mobility worsened again for recent cohorts as the probability of obtaining a university degree increased much more for those with highly educated fathers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Decompositions reveal persistence was driven largely by inequality in access to tertiary education. For instance, over 80% of those with a university graduate father also obtained a university degree.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Urban residents displayed higher mobility than rural residents, and males displayed higher mobility than females. But the contributions of location and gender remained stable over time.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1007/s10888-023-09585-7&quot;&gt;Demirtaş and Torul (2024)&lt;/a&gt; shift the focus to intergenerational income mobility. They estimate the intergenerational earnings elasticity, which measures the percent change in a child’s earnings associated with a 1 percent change in their parents’ earnings. Using data from SILC 2005-2017 and the two-sample two-stage least squares (TS2SLS) methodology, they obtain several novel results:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The earnings elasticity between fathers and sons is around 0.5. This level of persistence places Turkey similarly to the US and UK, which have the lowest mobility among developed countries.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For fathers and daughters, the earnings elasticity is approximately 1, twice as high as for father-son pairs. This likely reflects the substantial self-selection of women into employment. Estimates using household income are more comparable across genders.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Household income elasticities are around 0.8 for both sons and daughters, exceeding individual earnings elasticities for males but not females. In addition to the role of assortative mating, this is a mechanical result due to the addition of non-labor income.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There is a modest decline in mobility across birth cohorts, as evidenced by increasing earnings elasticities over time. Rank-based measures and transition matrices also indicate declining mobility.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mobility is weakest at the top and bottom of the income distribution, with the richest and poorest quintiles displaying the greatest persistence levels across generations.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Taken together, these three studies demonstrate that intergenerational mobility in Turkey is relatively low from an international perspective. This is true for both educational mobility and income mobility. The level of regional development and gender are two factors that generate significant heterogeneity in mobility within Turkey. But location and gender contribute relatively stable shares over time to economy-wide mobility. The expansion of education has not corresponded with steadily increasing mobility across cohorts. While mobility improved initially, it has worsened for recent cohorts as advantages at the tertiary level have become more entrenched. From a policy perspective, these findings highlight that Turkey’s education system does not currently provide equality of opportunity or facilitate social mobility across generations. As the country continues developing, targeted policies may be warranted to strengthen intergenerational mobility and equalize economic opportunities.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1016/j.euroecorev.2019.04.003&quot;&gt;Aydemir, A. B., &amp;amp; Yazıcı, H. (2019)&lt;/a&gt;. Intergenerational Education Mobility and the Level of Development. &lt;em&gt;European Economic Review&lt;/em&gt;, 116, 160–185.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1007/s10888-023-09585-7&quot;&gt;Demirtaş, N. M., &amp;amp; Torul, O. (2024)&lt;/a&gt;. Intergenerational Income Mobility in Turkey. &lt;em&gt;The Journal of Economic Inequality&lt;/em&gt;, 22, 185-–209.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1080/1540496X.2022.2082282&quot;&gt;Öztunalı, O., &amp;amp; Torul, O. (2022)&lt;/a&gt;. The Evolution of Intergenerational Educational Mobility in Turkey. &lt;em&gt;Emerging Markets Finance and Trade&lt;/em&gt;, 58(14), 4033–4049.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://doi.org/10.1007/s10888-019-09436-4&quot;&gt;Tamkoç, M. N., &amp;amp; Torul, O. (2020)&lt;/a&gt;. Cross-Sectional Facts for Macroeconomists: Wage, Income and Consumption Inequality in Turkey. &lt;em&gt;The Journal of Economic Inequality&lt;/em&gt;, 18(2):239-–259.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://orhantorul.com/intergenerational-mobility-survey/&quot;&gt;A Brief Survey on Intergenerational Mobility in Turkey&lt;/a&gt; was originally published by Orhan Torul at &lt;a href=&quot;https://orhantorul.com&quot;&gt;Orhan Torul&lt;/a&gt; on August 19, 2023.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Tips for Graduate Students in Economics]]></title>
+  <link rel="alternate" type="text/html" href="https://orhantorul.com/gradtips/" />
+  <id>https://orhantorul.com/gradtips</id>
+  <published>2018-09-01T00:00:00+03:00</published>
+  <updated>2018-09-01T00:00:00+03:00</updated>
+  <author>
+    <name>Orhan Torul</name>
+    <uri>https://orhantorul.com</uri>
+    <email>orhan.torul@bogazici.edu.tr</email>
+  </author>
+  <content type="html">&lt;hr /&gt;
+&lt;p&gt;Over the couple of years I have been serving at the Department of Economics at Boğaziçi University, I noticed several times that I was repeating myself when advising as an academic advisor. In order to do less of it, I decided to take the liberty to list some tips for our graduate students. Clearly, many of these recommendations are subjective, and by no means do they reflect the unanimous views of the members of the Department. That said, I acknowledge that I have benefited immensely from my exchange with the faculty at the Department, and I am particularly indebted to &lt;a href=&quot;https://web.bogazici.edu.tr/gurdal/&quot;&gt;Prof. Mehmet Yiğit Gürdal&lt;/a&gt;. &lt;br /&gt; &lt;br /&gt;
+Here are some tips in no particular order:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Do your best with your coursework. &lt;br /&gt; &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Regardless of your future research interests, give your best shot in learning &lt;em&gt;everything&lt;/em&gt; you encounter in &lt;em&gt;all&lt;/em&gt; sub-fields. Our coursework mainly intends to teach you the necessary toolkits to address essential concepts and questions, not just for the particular topics covered in class. We do know that graduate coursework is pretty intense and tiresome; be that as it may, your investment in the material can (and probably will) come in very handy when the least expected. (e.g., game theory in macroeconomics, the economics of institutions when designing a lab experiment, mechanism design in behavioral finance, …) Besides (and perhaps more importantly), your grades serve as a signal that you are competent, hard-working, and self-disciplined students who can thrive even in the top-notch Ph.D. programs.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Postpone criticizing (and complaining about) &lt;em&gt;how realistic and reliable economic models are&lt;/em&gt; for a bit. &lt;br /&gt; &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Economic models are obvious simplifications of reality. They intend to keep only the relevant first-order effect channels, and they do so deliberately by stripping away things you may find relevant. (By now, most of you are probably familiar with the &lt;em&gt;map&lt;/em&gt; analogy). &lt;strong&gt;&lt;em&gt;After&lt;/em&gt;&lt;/strong&gt; digesting economic models, their virtue can become more evident, and you may (and probably will) come to terms (and perhaps appreciate) why such details are perhaps &lt;em&gt;deliberately&lt;/em&gt; omitted. Keeping a critical approach is, of course, most valuable. However, learning more about how things are done in the discipline and establishing a more thorough perspective before criticizing is probably much healthier. &lt;br /&gt; &lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Come to terms with the fact that &lt;em&gt;no single economic model&lt;/em&gt; can successfully explain reality (and predict the future) correctly and universally. &lt;br /&gt; &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Human interactions are &lt;em&gt;really, really, really&lt;/em&gt; complex and multi-layered. There is practically no way of capturing everything at once. &lt;br /&gt; &lt;br /&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Physics tells us that the boiling point of pure water at 1 ATM is ~100 Celsius, regardless of where you do it. When you repeat it over, you get the same result and make sure that this is a universal result. &lt;br /&gt; &lt;br /&gt;&lt;/li&gt;
+          &lt;li&gt;When you analyze human behavior (e.g., experiment with policy changes), you will probably get different results under the (seemingly) very same economic conditions! &lt;br /&gt; &lt;br /&gt;
+            &lt;ul&gt;
+              &lt;li&gt;Take two fictional persons with identical socio-economic backgrounds, incomes, consumption bundles/saving patterns, and even future expectations. Try to predict how they will react to the same policy change (e.g., a tax increase). They will probably respond differently. Why? Say, the grandmother of the first advised him about the virtue of being precautious when needed (which accords well with &lt;em&gt;skin in the game&lt;/em&gt;), and say those teachings stick with the grandson (e.g., never spend more than 50% of your income, or make sure your rent does not exceed 40% of your income). Say he takes that word of caution very seriously when responding to the policy change, thereby reacts differently in consumption and saving decisions than the second person. This is a very subtle thing that can be overlooked when designing a policy, yet might have first-order implications. Suppose such words of caution are not uncommon in the land of the grandmother and grandson, and in fact, such teachings have become part of a culture so that most residents of the region react alike. Think of other possible subtle foundations. And think of their feedback mechanisms and other amplification channels. Beware that your model will almost always miss something critical, and your prediction will almost lack &lt;em&gt;some&lt;/em&gt; degree of accuracy. &lt;br /&gt; &lt;br /&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;If there is so much we could miss or get wrong, why come up with economic models in the first place? &lt;br /&gt; &lt;br /&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Think about meteorology. Meteorologists predict future (or &lt;em&gt;probability distribution functions&lt;/em&gt;) quite well in most cases, but not so much in others. Albeit getting it wrong (at least) occasionally, their predictions &lt;em&gt;do come in handy&lt;/em&gt; oftentimes. Clearly, state institutions are bogazicid to make critical policy decisions, and clearly, there is no escape from them. (Note that &lt;em&gt;not doing something (status-quo)&lt;/em&gt; is also a policy decision, and these policies could affect the lives of millions immensely.) For instance, the Central Bank has to decide what to do with its target interest rate or money supply.  Obviously, in order to make the best decision and enact the wisest policy, you will need some structure. Economic models can serve to provide that structure. Your best guess for average temperature level in Istanbul throughout June will probably not be 16 Celsius (as in London) or 35 Celsius (as in Riyadh), but something around 23 Celsius. Why? You probably factor in Istanbul’s longitude and latitude along with its other geographical properties and peculiarities. You make use of past realizations (of previous months and years), and perhaps you incorporate global warming trends. Likewise, &lt;em&gt;ceteris paribus&lt;/em&gt;, if the Central Bank doubles the money supply, it will probably not expect the price level to stay the same or increase by a thousand-fold, but double as well. Economic models can serve as the proper tools to deliver such insights. &lt;br /&gt; &lt;br /&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;In his &lt;a href=&quot;https://drodrik.scholar.harvard.edu/publications/economics-rulesthe-rights-and-wrongs-dismal-science&quot;&gt;book&lt;/a&gt;, the Turkish economist Dani Rodrik discusses why we use models in the social sciences, what makes a good model, and more. He also proposes &lt;a href=&quot;https://rodrik.typepad.com/dani_rodriks_weblog/2017/12/the-economics-debate-again-and-again.html&quot;&gt;ten commandments&lt;/a&gt; for economists and non-economists, which I believe is great advice:&lt;/p&gt;
+
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;strong&gt;Ten commandments for economists&lt;/strong&gt;&lt;/p&gt;
+          &lt;ol&gt;
+            &lt;li&gt;Economics is a collection of models; cherish their diversity.&lt;/li&gt;
+            &lt;li&gt;It’s a model, not &lt;strong&gt;&lt;em&gt;the&lt;/em&gt;&lt;/strong&gt; model.&lt;/li&gt;
+            &lt;li&gt;Make your model simple enough to isolate specific causes and how they work, but not so simple that it leaves out key interactions among causes.&lt;/li&gt;
+            &lt;li&gt;Unrealistic assumptions are OK; unrealistic critical assumptions are not OK.&lt;/li&gt;
+            &lt;li&gt;The world is (almost) always second-best.&lt;/li&gt;
+            &lt;li&gt;To map a model to the real world you need explicit empirical diagnostics, which is more craft than science.&lt;/li&gt;
+            &lt;li&gt;Do not confuse agreement among economists for certainty about how the world works.&lt;/li&gt;
+            &lt;li&gt;It’s OK to say “I don’t know” when asked about the economy or policy.&lt;/li&gt;
+            &lt;li&gt;Efficiency is not everything.&lt;/li&gt;
+            &lt;li&gt;Substituting your values for the public is an abuse of your expertise.&lt;/li&gt;
+          &lt;/ol&gt;
+        &lt;/blockquote&gt;
+
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;strong&gt;Ten commandments for non-economists&lt;/strong&gt;&lt;/p&gt;
+          &lt;ol&gt;
+            &lt;li&gt;Economics is a collection of models with no predetermined conclusions; reject any arguments otherwise.&lt;/li&gt;
+            &lt;li&gt;Do not criticize an economist’s model because of its assumptions; ask how the results would change if certain problematic assumptions were more realistic.&lt;/li&gt;
+            &lt;li&gt;Analysis requires simplicity; beware of incoherence that passes itself off as complexity.&lt;/li&gt;
+            &lt;li&gt;Do not let math scare you; economists use math not because they are smart but because they are not smart enough.&lt;/li&gt;
+            &lt;li&gt;When an economist makes a recommendation, ask what makes him/her sure the underlying model applies to the case at hand.&lt;/li&gt;
+            &lt;li&gt;When an economist uses the term “economic welfare”, ask what s/he means by it.&lt;/li&gt;
+            &lt;li&gt;Beware that an economist may speak differently in public than in the seminar room.&lt;/li&gt;
+            &lt;li&gt;Economists don’t (all) worship markets, but they know better how they work than you do.&lt;/li&gt;
+            &lt;li&gt;If you think all economists think alike, attend one of their seminars.&lt;/li&gt;
+            &lt;li&gt;If you think economists are especially rude to non-economists, attend one of their seminars.&lt;/li&gt;
+          &lt;/ol&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;If you still cannot help yourself postponing to criticize economics, do &lt;em&gt;read&lt;/em&gt; what early intellectuals discussed &lt;br /&gt; &lt;br /&gt;
+        &lt;ul&gt;
+          &lt;li&gt;An excellent critical &lt;a href=&quot;https://www.cambridge.org/core/books/explaining-social-behavior/084AF4C955B35C8FB3BBA03C4C0E0000&quot;&gt;book&lt;/a&gt; I recommend is by Jon Elster. While many economists and political scientists would disagree with him on several accounts, I believe most will appreciate his insightful criticism on &lt;a href=&quot;https://www.kcl.ac.uk/sspp/departments/politicaleconomy/study/ug/political-economy/Elster,-obscurantism-in-the-social-sciences,-Diogenes-58.1-2-(2011).pdf&quot;&gt;obscurantism in social sciences&lt;/a&gt;. &lt;br /&gt; &lt;br /&gt;&lt;/li&gt;
+          &lt;li&gt;To lighten up the mood a bit, a sarcastic &lt;a href=&quot;https://chrisauld.com/2013/10/23/18-signs-youre-reading-bad-criticism-of-economics/&quot;&gt;piece&lt;/a&gt; on bad criticism in economics might help you with learning about economists’ take on stereotypical critiques. &lt;br /&gt; &lt;br /&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Graduate coursework differs a lot from undergraduate coursework, and this is not just a &lt;em&gt;phase&lt;/em&gt;, but a part of a new &lt;em&gt;trend&lt;/em&gt;. &lt;br /&gt; &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;If you have already taken graduate-level courses, you would have noticed that the first year of the graduate coursework can hardly be considered a continuation of the undergraduate program as its fifth year. The graduate coursework is considerably less structured (and often less pedagogical) and requires significantly more creative and flexible thinking. Just memorizing things, as you might have done throughout your undergraduate (or prior) studies will probably not get you anywhere. Come to terms with the fact that as you specialize more and more (as you do throughout your graduate studies), you will not be able to find an easy-to-read textbook to grasp everything at once. Instead, you will have to learn how to dig deep and learn from contrary views, and form opinions of your own. Doctoral studies are full of learning (and researching) in such unstructured settings, and trying to get comfortable with the lack of structure sooner than later is probably the wiser way to go. &lt;br /&gt; &lt;br /&gt;&lt;/li&gt;
+      &lt;li&gt;As you struggle with the lack of structure in your graduate studies, remember that you are not alone: your classmates probably go through similar difficulties. You can learn &lt;em&gt;a lot&lt;/em&gt; from your peers (and sometimes more so than from your professors or textbooks/articles). They probably experience the same hardship as you do: they were also high-achieving undergraduate students who attended classes regularly, solved problem sets meticulously, and excelled at exams (that were often simple extensions of in-class exercises and problem set questions). Studying together with, trying to learn, and getting support from your peers will probably help you keep a more positive outlook that will prove &lt;em&gt;invaluable&lt;/em&gt; throughout your studies. On a personal level, I would find myself perform better when surrounded by positive and excited classmates than ever-frustrated, resentful, and complaining ones, so remember the type of &lt;em&gt;externality&lt;/em&gt; your attitude could result in. &lt;br /&gt; &lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Learn to plan, organize and prepare in advance. &lt;br /&gt; &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Whether it be about your coursework, master’s thesis, or preparation for standardized tests (e.g., GRE or TOEFL), keep it tidy, keep it organized, keep it planned, and keep it error-free to the best of your ability. Work with timetables, and keep buffer zones (in case things go south, and they &lt;em&gt;do&lt;/em&gt; go south). It is understandable for you not to do your best in an exam or pop-quiz, but failing to devote proper time and energy to what you should is hardly excusable. For instance, when applying to a Ph.D. program, I believe a CV or statement of purpose with typos and formatting errors will not only look unprofessional but also signal that you have not ironed out simple mistakes that you could have easily done so, should you prepare well in advance. &lt;br /&gt; &lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Try not to be &lt;em&gt;overly&lt;/em&gt; ambitious with your master’s thesis. &lt;br /&gt; &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Hold your horses in explaining &lt;em&gt;everything&lt;/em&gt; with your master’s thesis. Being ambitious is great, but two or three years of graduate work will probably not suffice to prepare you to address your ambitious questions with academic rigor. In order to figure out what’s not &lt;em&gt;overly&lt;/em&gt; ambitious but just &lt;em&gt;ambitious enough&lt;/em&gt;, do not shy away from consulting with your thesis adviser.&lt;br /&gt; &lt;br /&gt;&lt;/li&gt;
+      &lt;li&gt;Motivate your research questions not based on your subjective evaluations and judgments but factual evidence and data. Read (and read &lt;em&gt;a lot&lt;/em&gt;) on what other researchers did when addressing similar questions. One of the key integral parts of writing a good thesis is figuring out (and discussing) where your work lies in the literature. Failing to discuss the earlier relevant literature and doing a poor job in outlaying your contribution to the literature will not make you look smarter and more accomplished (as the first-doer of your thing) but instead will reduce the overall quality and value-added of your work. &lt;br /&gt; &lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Here are some tips from &lt;a href=&quot;https://gregmankiw.blogspot.com/2006/05/advice-for-aspiring-economists.html&quot;&gt;Gregory Mankiw&lt;/a&gt; for undergraduate students:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Take as many math and statistics courses as you can stomach.&lt;/li&gt;
+    &lt;li&gt;Choose your economics courses from professors who are passionate about the field and care about teaching. Ignore the particular topics covered when choosing courses. All parts of economics can be made interesting, or deadly dull, depending on the instructor.&lt;/li&gt;
+    &lt;li&gt;Use your summers to experience economics from different perspectives. Spend one working as a research assistant for a professor, one working in a policy job in government, and one working in the private sector.&lt;/li&gt;
+    &lt;li&gt;Read economics for fun in your spare time. To get you started, &lt;a href=&quot;https://gregmankiw.blogspot.com/2006/05/summer-reading-list.html&quot;&gt;here&lt;/a&gt;  is a list of recommended readings.&lt;/li&gt;
+    &lt;li&gt;Follow economics news. The best weekly is The Economist. The best daily is the Wall Street Journal.&lt;/li&gt;
+    &lt;li&gt;If you are at a research university, attend the economic research seminars at your school about once a week. You may not understand the discussions at first, because they may seem too technical, but you will pick up more than you know, and eventually you’ll be giving the seminar yourself.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Despite intended for undergraduate students, even if you are done with your coursework, I think 4. 5. and 6. would still be valid. Regarding 4. and 5, this &lt;a href=&quot;https://orhantorul.com/rss-feeders/&quot;&gt;post&lt;/a&gt; might come in handy.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Finally, here are some &lt;a href=&quot;https://orhantorul.com/torul_gradnotes.pdf&quot;&gt;recommendations&lt;/a&gt; to our previous students regarding their Economics Ph.D. applications.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For your inquiries, do not hesitate to send me an e-mail at &lt;a href=&quot;mailto:orhan.torul@bogazici.edu.tr&quot;&gt;orhan.torul@bogazici.edu.tr&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://orhantorul.com/gradtips/&quot;&gt;Tips for Graduate Students in Economics&lt;/a&gt; was originally published by Orhan Torul at &lt;a href=&quot;https://orhantorul.com&quot;&gt;Orhan Torul&lt;/a&gt; on September 01, 2018.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[RSS Feeders]]></title>
+  <link rel="alternate" type="text/html" href="https://orhantorul.com/rss-feeders/" />
+  <id>https://orhantorul.com/rss-feeders</id>
+  <published>2018-02-23T00:00:00+03:00</published>
+  <updated>2018-02-23T00:00:00+03:00</updated>
+  <author>
+    <name>Orhan Torul</name>
+    <uri>https://orhantorul.com</uri>
+    <email>orhan.torul@bogazici.edu.tr</email>
+  </author>
+  <content type="html">&lt;hr /&gt;
+&lt;p&gt;Economics is one of the disciplines that hardly ever becomes clear right after the first encounter. Exposure is key, for which I
+would like to recommend some economics blogs to those interested in the field. These blogs could help with following up-to-date discussions in the profession, as well as with learning about policies in action.&lt;/p&gt;
+
+&lt;p&gt;Here is a brief list of some economics blogs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.economist.com/&quot;&gt;Economist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.economist.com/blogs/freeexchange&quot;&gt;Free exchange&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.economonitor.com/&quot;&gt;EconoMonitor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://economix.blogs.nytimes.com/&quot;&gt;Economix&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.econbrowser.com/&quot;&gt;Econbrowser&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marginalrevolution.com/&quot;&gt;Marginal Revolution&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.economistsdoitwithmodels.com/&quot;&gt;Economists Do It With Models&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.washingtonpost.com/news/wonkblog/&quot;&gt;WonkBlog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.freakonomics.com/blog/&quot;&gt;Freakonomics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.project-syndicate.org/&quot;&gt;Project Syndicate&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.social-europe.eu/&quot;&gt;Social Europe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.voxeu.org/&quot;&gt;VoxEU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://visualizingeconomics.com/&quot;&gt;Visualizing Economics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://whynationsfail.com/&quot;&gt;Why Nations Fail&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://andolfatto.blogspot.com/&quot;&gt;David Andalfatto&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://johnhcochrane.blogspot.com/&quot;&gt;John Cochrane&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://delong.typepad.com/&quot;&gt;Brad DeLong&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fatasmihov.blogspot.com/&quot;&gt;Antonio Fatas and Ilian Mihov&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://timharford.com/&quot;&gt;Tim Harford&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.supplysideliberal.com/&quot;&gt;Miles Kimball&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://krugman.blogs.nytimes.com/&quot;&gt;Paul Krugman&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gregmankiw.blogspot.com/&quot;&gt;Greg Mankiw&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rodrik.typepad.com/&quot;&gt;Dani Rodrik&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://noahpinionblog.blogspot.com/&quot;&gt;Noah Smith&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://economicsone.com/&quot;&gt;John Taylor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://economistsview.typepad.com/&quot;&gt;Mark Thoma&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://newmonetarism.blogspot.com/&quot;&gt;Stephen Williamson&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.slate.com/blogs/moneybox.html&quot;&gt;Matthew Yglesias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It can be unappealing and tiresome having to visit all these different blogs at their original sources. Thanks to advances in information technologies, RSS (&lt;strong&gt;r&lt;/strong&gt;eally &lt;strong&gt;s&lt;/strong&gt;imple &lt;strong&gt;s&lt;/strong&gt;yndication) feeders and readers allow following different online platforms from a single source without any sweat. It is quite easy to use free online tools, such as &lt;a href=&quot;https://feedly.com&quot;&gt;feedly&lt;/a&gt; so as to organize, read, and share all the economic (or other) content from a single place, and push them to your RSS readers (on your smart phones, tablets or computers) to keep up with news and recent discussions. If you have no idea how to set up and organize a &lt;a href=&quot;https://feedly.com&quot;&gt;feedly&lt;/a&gt; account, &lt;a href=&quot;https://www.youtube.com/watch?v=Y9AZEiWYCHo&quot;&gt;YouTube tutorials&lt;/a&gt; can be of help.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://orhantorul.com/rss-feeders/&quot;&gt;RSS Feeders&lt;/a&gt; was originally published by Orhan Torul at &lt;a href=&quot;https://orhantorul.com&quot;&gt;Orhan Torul&lt;/a&gt; on February 23, 2018.&lt;/p&gt;</content>
+</entry>
+
 </feed>
