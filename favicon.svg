@@ -1,12 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <style>@media (max-width: 64px) { .ln { stroke: #000 } .bg { fill: #fcfcfc } }</style>
   <!-- "OT" monogram: vector redraw of the original favicon, sharp at any size -->
   <circle cx="149.5" cy="149.5" r="146.5" fill="#fff"/>
-  <circle cx="149.5" cy="149.5" r="128" fill="#f7f7f7"/>
-  <g fill="none" stroke="#111">
+  <circle class="bg" cx="149.5" cy="149.5" r="128" fill="#f7f7f7"/>
+  <g class="ln" fill="none" stroke="#111">
     <circle cx="149.5" cy="149.5" r="146.5" stroke-width="3"/>
     <circle cx="149.5" cy="149.5" r="138" stroke-width="7"/>
     <circle cx="149.5" cy="149.5" r="128.5" stroke-width="2.5"/>
-    <g stroke-width="5.6">
+    <g class="lt" stroke-width="5.6">
       <circle cx="111" cy="150" r="54.7"/>
       <circle cx="111" cy="150" r="43.5"/>
       <circle cx="111" cy="150" r="32.3"/>
