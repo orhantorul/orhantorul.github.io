@@ -5,6 +5,9 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
+<!-- Mark JavaScript as available (replaces Modernizr's no-js -> js swap). The mobile
+     menu CSS keys off this: .js collapses the menu until the menu button is tapped. -->
+<script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');</script>
 <title>Orhan Torul  &#8211; When the Odds Do Not Agree </title>
 <meta name="description" content="Prediction Market Disagreement and Equity Volatility: When the Odds Do Not Agree">
 <meta name="keywords" content="">
