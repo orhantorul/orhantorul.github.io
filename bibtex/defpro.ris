@@ -1,0 +1,13 @@
+TY  - RPRT
+AU  - Author, Unknown
+TI  - Pricing the Arsenal: Defense-Procurement Shocks in Financial and Local Labor Markets
+PY  - 2026
+DO  - 10.2139/ssrn.6838888
+UR  - https://orhantorul.com/research/defpro/
+KW  - Defense procurement
+KW  - local multipliers
+KW  - wage spillovers
+KW  - local projections
+KW  - cluster-robust inference.
+AB  - We assess local labor market responses to the post-March 2022 U.S. emergency defense procurement supplementals using a matched 61-county panel (2021Q1–2025Q3) from BLS QCEW, linked to Census QWI for worker-flow evidence. Counties with high procurement intensity exhibit a modest rise in non-manufacturing average weekly wages: about 0.34% (or $3.40 per week) at the median treated-county intensity (TWFE β = +0.0006; Wild Cluster Bootstrap p = 0.081; permutation p = 0.001). The pattern in QWI worker-flow data is consistent with a compositional channel: new-hire earnings rise in non-manufacturing and fall in manufacturing, while stable-employee earnings change little. Because the QWI data are aggregated at the county-by-sector level, however, they cannot fully separate compositional entry from changes in occupation mix, hours, or establishment composition. The headline wage spillover survives a pre-COVID placebo, recovery-trajectory controls, Honest-DiD sensitivity analysis, intensity winsorization, sector falsification, and same-sample 2SLS estimation with two predetermined defense-industrial-base instruments. Because pre-trends are formally rejected in our 2021–2025 window, identification relies on these sensitivity checks rather than on unconditional parallel trends. We find no robust effect on manufacturing employment or wages.
+ER  - 

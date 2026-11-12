@@ -1,0 +1,11 @@
+TY  - RPRT
+AU  - Torul, Orhan
+TI  - Two Venues, One Policy Event: Measuring Repricing in Prediction Markets
+PY  - 2026
+UR  - https://orhantorul.com/research/dark/
+KW  - Prediction markets
+KW  - policy expectations
+KW  - announcements
+KW  - market microstructure.
+AB  - How much does venue choice change measured announcement repricing? I compare Polymarket and Kalshi contracts on the same Federal Reserve decision around 31 releases spanning 13 meetings. Thirty-minute changes correlate at 0.94 (meeting-block 95% interval: 0.82–0.99), yet the venues share only four of their five largest events. Classification disagreement varies with the movement threshold: seven events differ at one percentage point and two at five. Kalshi’s quote-implied ranges permit both classifications for 22 and 17 events, respectively, limiting what these point-price differences reveal. Release-type mean rankings agree, with imprecise venue effects. The retained releases have larger Polymarket movements than 35 excluded releases. The contribution is a reproducible comparison of event selection, raw movement summaries, and quote-implied classification uncertainty within this selected 2024–2026 archive.
+ER  - 

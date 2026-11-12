@@ -1,0 +1,13 @@
+TY  - RPRT
+AU  - Aktuğ, Emrehan
+AU  - Torul, Orhan
+TI  - Price Discovery Across Political Prediction Markets: Evidence from the 2024 U.S. Presidential Election
+PY  - 2026
+UR  - https://orhantorul.com/research/pridis/
+KW  - Price Discovery
+KW  - Prediction Markets
+KW  - Information Shares
+KW  - Market Microstructure
+KW  - Political Betting
+AB  - During the 2024 U.S. presidential election, the same binary outcome—a Trump victory—was traded simultaneously on nine venues: a blockchain-based order book (Polymarket), two further exchanges (Betfair, Kalshi), and six dealer sportsbooks, across jurisdictions between which no mechanism enforces the law of one price. The result is a natural laboratory for asking where the efficient probability is produced, and whether that production matters beyond the betting ecosystem. Applying the Hasbrouck, Gonzalo–Granger, and Putnin, š price-discovery decompositions to 5-minute data, we find a sharply hierarchical cross-section: the order-book exchanges Polymarket and Betfair jointly account for nearly 85% of information shares, no dealer sportsbook exceeds 11%, and the dealer books are consistently relegated to a following role. Benchmarking the prediction-market consensus against exchange-timestamped financial data, we show that it led S&P 500 futures throughout election night, led Trump Media’s equity across the overnight gap, and priced the campaign’s two weekend shocks while financial markets were closed. The newly CFTC-regulated entrant Kalshi attains nontrivial information shares within weeks, and leadership among the exchanges is horizon-dependent. We read the cross-section descriptively, since our design cannot fully separate venue organization from attention and liquidity. The cross-asset evidence does not share this limitation: prediction markets incorporate political information ahead of deep, professionally arbitraged financial markets, speaking directly to the regulatory debate over whether event-contract exchanges serve a legitimate price-discovery function.
+ER  - 

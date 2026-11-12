@@ -1,0 +1,12 @@
+TY  - RPRT
+AU  - Aktuğ, Emrehan
+AU  - Torul, Orhan
+TI  - Election Probabilities and the Treasury Yield Curve
+PY  - 2026
+UR  - https://orhantorul.com/research/yield/
+KW  - Treasury yields
+KW  - election uncertainty
+KW  - prediction markets
+KW  - breakeven inflation
+AB  - During the 2024 U.S. presidential campaign, daily increases in Polymarket’s Trump win probability were associated with a long-end Treasury steepening, term-premium repricing, and a coherent cross-asset Trump-trade signature. A ten-percentage-point probability rise corresponds to a ∼2 basis-point steepening of the 2s10s slope; the short end and the overnight policy rate are statistically unresponsive; an Adrian et al. (2013) decomposition assigns 95% of the ten-year response to the term premium. Identification combines a non-trading-hours decomposition (the yield response loads entirely on the overnight component of ∆p t , when cash markets are closed), a 2SLS estimator using the overnight component as an instrument (first-stage F = 37, IV exceeds OLS), a CME ten-year futures overnight gap on 1-minute Globex prices that is null ex-Election-Day, and Betfair replication. A formal Election Day holdout test (estimate through November 5, predict November 6) puts the predicted slope move within 1 bp of the realized 8 bp and the predicted 10-year real-yield change within rounding of the realized 5 bp; the breakeven decomposition share remains leverage-dependent. A leave-one-event-out cross-validation across six politically salient 2024 dates yields an out-of-sample slope R 2 of 0.34 and a predicted–realized correlation of 0.74. The 2020 Biden–Trump cycle (PredictIt, N = 458) is sign-consistent at every long-end maturity; a 2019 pre-period placebo using the same contract is statistically zero across all maturities. We treat sign and channel composition as the load-bearing inference.
+ER  - 

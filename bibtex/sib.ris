@@ -1,0 +1,12 @@
+TY  - RPRT
+AU  - Oztunali, Oguz
+AU  - Torul, Orhan
+TI  - A Harmonic-Mean Decomposition of Sibling Correlations: Evidence from Turkey
+PY  - 2026
+UR  - https://orhantorul.com/research/sib/
+KW  - sibling correlations
+KW  - educational mobility
+KW  - harmonic mean decomposition
+KW  - Simpson’s paradox
+AB  - We develop a decomposition framework that treats the sibling correlation—rather than its variance components—as the primitive object. The grand sibling correlation is exactly a weighted harmonic mean of within- and between-subset correlations; the identity is recursive and supports a counterfactual subset-removal exercise separating within- and between-channel contributions. Applying the framework to Turkish Demographic and Health Survey data for 1993–2018, we estimate an educational sibling correlation of 0.52 and document three findings. First, partitioning by parental education generates the largest between-subset amplification among the observable dimensions we examine, a level-shift analogue of Simpson’s paradox in which every subset correlation lies below the grand correlation. Second, a sister–brother gap of 0.13 persists within every observable partition of family background and geography. Third, subset-removal effects operate primarily through reweighting in the harmonic aggregation rather than through changes in correlation levels—a mechanism that additive variance decompositions cannot uncover.
+ER  - 

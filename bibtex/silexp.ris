@@ -1,0 +1,15 @@
+TY  - RPRT
+AU  - Gürdal, Mehmet Y.
+AU  - Torul, Orhan
+TI  - Silicon Experts: How Well Do LLMs Replicate Expert Economic Judgment?
+PY  - 2026
+UR  - https://orhantorul.com/research/silexp/
+KW  - Large language models
+KW  - expert judgment
+KW  - panel data
+KW  - Dunning-Kruger effect
+KW  - temporal decay
+KW  - homogenization
+KW  - overconfidence
+AB  - We audit the economic judgments of 15 large language models spanning three generations against the established consensus of elite economists, using 45,983 individual expert responses to 885 propositions from the IGM Economic Experts Panel (2011–2026). Models display high directional alignment with expert consensus, yet this proficiency is fragile and contingent on training-data density. Multivariate temporal decomposition reveals that model accuracy declines on recent propositions not because of the passage of time per se, but because models underperform systematically when human expert consensus fractures. A regression discontinuity design exploiting training cutoffs uncovers a significant architectural divergence: some model families generalize robustly to out-of-sample propositions, while others exhibit a sharp and statistically significant collapse in accuracy immediately past their knowledge cutoff dates. To circumvent the categorical hedging induced by alignment tuning, we introduce a Semantic Similarity Rating (SSR) protocol that recovers a continuous probability mass function from model reasoning. This reveals a systematic divergence between model outputs and model reasoning: internal justifications carry substantially stronger conviction and ideological lean, including a Freshwater bias in most architectures, than the discrete categorical votes suggest. An econometric audit of self-reported confidence further documents severe miscalibration in several frontier architectures, where stated certainty remains high even as empirical accuracy deteriorates sharply. The evidence indicates that the apparent replication of expert judgment by modern AI is often an illusion sustained by training-data density rather than genuine economic reasoning.
+ER  - 
