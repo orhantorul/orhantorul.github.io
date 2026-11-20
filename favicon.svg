@@ -1,17 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-  <style>@media (max-width: 64px) { .ln { stroke: #000 } .bg { fill: #fcfcfc } }</style>
-  <!-- "OT" monogram: vector redraw of the original favicon, sharp at any size -->
-  <circle cx="149.5" cy="149.5" r="146.5" fill="#fff"/>
-  <circle class="bg" cx="149.5" cy="149.5" r="128" fill="#f7f7f7"/>
-  <g class="ln" fill="none" stroke="#111">
-    <circle cx="149.5" cy="149.5" r="146.5" stroke-width="3"/>
-    <circle cx="149.5" cy="149.5" r="138" stroke-width="7"/>
-    <circle cx="149.5" cy="149.5" r="128.5" stroke-width="2.5"/>
-    <g class="lt" stroke-width="5.6">
-      <circle cx="111" cy="150" r="54.7"/>
-      <circle cx="111" cy="150" r="43.5"/>
-      <circle cx="111" cy="150" r="32.3"/>
-      <path stroke-linejoin="miter" d="M212.5 125.5V203.5H190.5V116.5H163M201.5 196V116.5H240.5V95H165.5V106H231"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- OT monogram, "Horizon" (D2·R1). Inverts in dark browser themes so the ring stays visible. Master: _logo/ot-logo.svg -->
+  <style>
+    .i{fill:#111}.is{stroke:#111}.p{fill:#fff}.ps{stroke:#fff}
+    @media (prefers-color-scheme: dark){.i{fill:#fff}.is{stroke:#fff}.p{fill:#111}.ps{stroke:#111}}
+  </style>
+  <defs><clipPath id="top"><rect width="200" height="100"/></clipPath></defs>
+  <circle class="p" cx="100" cy="100" r="94"/>
+  <circle class="is" cx="62" cy="100" r="25.75" fill="none" stroke-width="14.5"/>
+  <rect class="i" x="107" y="68" width="64" height="14"/>
+  <rect class="i" x="132" y="68" width="14" height="64"/>
+  <g clip-path="url(#top)">
+    <circle class="i" cx="100" cy="100" r="94"/>
+    <circle class="ps" cx="62" cy="100" r="25.75" fill="none" stroke-width="14.5"/>
+    <rect class="p" x="107" y="68" width="64" height="14"/>
+    <rect class="p" x="132" y="68" width="14" height="64"/>
   </g>
+  <circle class="is" cx="100" cy="100" r="93" fill="none" stroke-width="6"/>
 </svg>
