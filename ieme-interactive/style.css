@@ -1,6 +1,7 @@
 .ieme { --sans: 'IBM Plex Sans', sans-serif; --line: #d7d7d7; color: inherit; }
 .ieme *, .ieme *::before, .ieme *::after {box-sizing:border-box}
-.ieme .byline {font-style:italic;margin-top:0}
+.ieme .paper-meta {margin:-.5em 0 1em}
+.ieme .paper-meta p {margin:.2em 0;text-indent:0}
 .ieme h2 {margin:1.1em 0 .5em}
 .ieme h3 {margin:.7em 0 .25em;font-size:1.35rem}
 .ieme .tabs,.ieme .controls,.ieme .legend,.ieme .key,.ieme .values,.ieme .scrub {display:flex;align-items:center;flex-wrap:wrap;gap:.55rem 1rem}
